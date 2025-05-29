@@ -24,7 +24,7 @@ public class HomeController : Controller
             juego escapeBabel = new juego(nombreusuario);
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
             ViewBag.juego=escapeBabel;
-            return View(salaActualVista(escapeBabel.salaActual));
+            return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
         }else if(opcion=="historia"){
             return View("historia");
 
@@ -39,7 +39,7 @@ public class HomeController : Controller
         escapeBabel.cambiarItemSeleccionado(item);
         HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
         ViewBag.juego=escapeBabel;
-        return View(salaActualVista(escapeBabel.salaActual));
+         return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
     }
 [HttpPost]
     public IActionResult usarObjeto(int numPuerta){
@@ -50,14 +50,14 @@ public class HomeController : Controller
                 escapeBabel.cambiarNumeroSala(escapeBabel.salaActual+1);
                 HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
                 ViewBag.juego=escapeBabel;
-                return View(salaActualVista(escapeBabel.salaActual));
+                 return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
             }else{
                 ViewBag.juego=escapeBabel;
-                return View (salaActualVista(escapeBabel.salaActual));
+                 return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
             }
         }else{
             ViewBag.juego=escapeBabel;
-            return View(salaActualVista(escapeBabel.salaActual));
+             return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
         }
     }
 
@@ -72,29 +72,27 @@ public class HomeController : Controller
         if(escapeBabel.dicResoluciones.ContainsKey(numeroAcertijo)){
             if(escapeBabel.dicResoluciones[numeroAcertijo]==respuestaUsuario){
 
-
-
                 ViewBag.acertijoResuleto=numeroAcertijo;
                 ViewBag.juego=escapeBabel;
+
                 return View("acierto");
             }else{
                 
                 ViewBag.juego=escapeBabel;
                 return View ("equivocacion");
             }
-
-
-
-
-
         }
         ViewBag.juego=escapeBabel;
-        return View(salaActualVista(escapeBabel.salaActual));
+        return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
     }
 
-    private string salaActualVista(int salaActual){
+    private string salaActualVista(int salaActual, int maximaSala){
         string sala="sala";
-        sala+=salaActual;
+        if(salaActual<=maximaSala){
+            sala+=salaActual;
+        }else{
+            sala="final";
+        }
         return sala;
     }
     

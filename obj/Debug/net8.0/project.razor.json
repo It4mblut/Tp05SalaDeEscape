@@ -19329,6 +19329,11 @@
   "RootNamespace": "tpSalaDeEscape",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\Home\\final.cshtml",
+      "TargetPath": "Views\\Home\\final.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -19349,8 +19354,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\Home\\equivocacion.cshtml",
+      "TargetPath": "Views\\Home\\equivocacion.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\Home\\acierto.cshtml",
+      "TargetPath": "Views\\Home\\acierto.cshtml",
       "FileKind": "mvc"
     },
     {
