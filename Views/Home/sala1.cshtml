@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+<footer>
+        @for(int i=0; i< ViewBag.juego.maxSlots; i++ ){
+                if(ViewBag.juego.itemSeleccionado == i){
+                <div class="slotSeleccionado">
+                        <img src="~/@ViewBag.juego.dicInventario[i]" alt="item">
+                </div>
+                }
+                
+                @if(ViewBag.juego.dicInventario.containsKey(i)){
+                <div>
+                        <img src="~/@ViewBag.juego.dicInventario[i]" alt="item">
+                </div>
+                }
+
+                <div>
+                    <p>UwU</p>            
+                </div>
+        
+                
+
+        }
+</footer>
