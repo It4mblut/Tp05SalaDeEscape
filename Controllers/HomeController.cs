@@ -17,4 +17,10 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult responderAcertijo(string respuestaUsuario, int numeroAcertijo, string recompensa){
+
+
+
+        return View();
+    }
 }
