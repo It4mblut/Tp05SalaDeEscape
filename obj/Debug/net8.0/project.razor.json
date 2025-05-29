@@ -19344,13 +19344,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\Home\\historia.cshtml",
+      "TargetPath": "Views\\Home\\historia.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\Home\\sala1.cshtml",
+      "TargetPath": "Views\\Home\\sala1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\49008593\\Desktop\\hab\\tpSalaDeEscape\\Views\\Home\\tutorial.cshtml",
+      "TargetPath": "Views\\Home\\tutorial.cshtml",
       "FileKind": "mvc"
     }
   ],

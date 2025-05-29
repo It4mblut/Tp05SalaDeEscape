@@ -2,15 +2,15 @@ namespace tpSalaDeEscape.Models;
 
 public class juego{
 
-    public string nombreUsuario {private get; set;}
-    public Dictionary<int, string> dicInventario {private get; set;}
-    public int maxSlots {private get; set;}
-    public int itemSeleccionado {private get; set;}
-    public int salaActual {private get; set;}
-    public int maxSalas {private get; set;}
+    public string nombreUsuario { get; private set;}
+    public Dictionary<int, string> dicInventario { get; private set;}
+    public int maxSlots { get; private set;}
+    public int itemSeleccionado { get; private set;}
+    public int salaActual { get; private set;}
+    public int maxSalas { get; private set;}
 
-    public Dictionary<int, string> dicResoluciones {private get; set;}
-    public Dictionary<int, string> dicPuertas {private get; set;}
+    public Dictionary<int, string> dicResoluciones { get; private set;}
+    public Dictionary<int, string> dicPuertas { get; private set;}
 
     
     public juego(string nombreUsuaroi){
@@ -25,7 +25,6 @@ public class juego{
 
 
     }
-
 
     public void cambiarItemSeleccionado(int itemSeleccionado){
         if(itemSeleccionado<=maxSlots && itemSeleccionado>=0){
