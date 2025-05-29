@@ -17,6 +17,7 @@ public class HomeController : Controller
     {
         return View();
     }
+    [HttpPost]
     public IActionResult iniciar(string opcion, string nombreusuario=null){
 
         if(nombreusuario!=null){
@@ -32,13 +33,15 @@ public class HomeController : Controller
             return View("tutorial");
         }
     }
+    [HttpPost]
     public IActionResult cambiarItem(int item){
         juego escapeBabel =objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
         escapeBabel.cambiarItemSeleccionado(item);
         HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
+        ViewBag.juego=escapeBabel;
         return View(salaActualVista(escapeBabel.salaActual));
     }
-
+[HttpPost]
     public IActionResult usarObjeto(int numPuerta){
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
         if(escapeBabel.dicPuertas.ContainsKey(numPuerta) && escapeBabel.dicInventario.ContainsKey(escapeBabel.itemSeleccionado)){
@@ -46,11 +49,14 @@ public class HomeController : Controller
             if(escapeBabel.dicPuertas[numPuerta] == escapeBabel.dicInventario[escapeBabel.itemSeleccionado]){
                 escapeBabel.cambiarNumeroSala(escapeBabel.salaActual+1);
                 HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
+                ViewBag.juego=escapeBabel;
                 return View(salaActualVista(escapeBabel.salaActual));
             }else{
+                ViewBag.juego=escapeBabel;
                 return View (salaActualVista(escapeBabel.salaActual));
             }
         }else{
+            ViewBag.juego=escapeBabel;
             return View(salaActualVista(escapeBabel.salaActual));
         }
     }
@@ -59,12 +65,31 @@ public class HomeController : Controller
 
 
 
-
+    [HttpPost]
     public IActionResult responderAcertijo(string respuestaUsuario, int numeroAcertijo, string recompensa){
+        
+        juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
+        if(escapeBabel.dicResoluciones.ContainsKey(numeroAcertijo)){
+            if(escapeBabel.dicResoluciones[numeroAcertijo]==respuestaUsuario){
 
 
 
-        return View();
+                ViewBag.acertijoResuleto=numeroAcertijo;
+                ViewBag.juego=escapeBabel;
+                return View("acierto");
+            }else{
+                
+                ViewBag.juego=escapeBabel;
+                return View ("equivocacion");
+            }
+
+
+
+
+
+        }
+        ViewBag.juego=escapeBabel;
+        return View(salaActualVista(escapeBabel.salaActual));
     }
 
     private string salaActualVista(int salaActual){
