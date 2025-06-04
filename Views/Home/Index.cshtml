@@ -4,7 +4,23 @@
 
 <div>
     <h1>Index</h1>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
+    <p>Bienvenidos al escape de la biblioteca de babel</p>
 </div>
 
-<a href='@Url.Action("iniciar", "Home")'>Visit W3Schools.com!</a>
+    <form action='@Url.Action("iniciar", "Home")' method="post">
+        <p>nombre de usuario: <input type="text" name="nombreusuario"> <br>
+        <input type="submit" name="" id="">
+        </p>
+        
+    </form>
+    
+    <form action='@Url.Action("iniciar", "Home")' method="post">
+        
+        <p> 
+        <input type="radio" name="opcion" value="historia"> historia <br>
+        <input type="radio" name="opcion" value="tutorial"> tutorial 
+        <br><input type="submit" name="" id="">
+        </p>
+        
+        
+    </form>

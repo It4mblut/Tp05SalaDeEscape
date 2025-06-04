@@ -20,6 +20,7 @@ public class juego{
         this.dicResoluciones=new Dictionary<int, string>();
         salaActual=1;
         itemSeleccionado=0;
+        maxSalas=4;
         maxSlots=6;
         this.nombreUsuario=nombreUsuaroi;
 
@@ -43,7 +44,15 @@ public class juego{
         }
     }
 
-    
+    public string salaActualVista(){
+        string sala="sala";
+        if(salaActual<=maxSalas){
+            sala=sala+salaActual;
+        }else{
+            sala="final";
+        }
+        return sala;
+    }
 
 
 

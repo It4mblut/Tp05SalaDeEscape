@@ -18,19 +18,22 @@ public class HomeController : Controller
         return View();
     }
     [HttpPost]
-    public IActionResult iniciar(string opcion, string nombreusuario=null){
+    public IActionResult iniciar(string opcion=null, string nombreusuario=null){
 
         if(nombreusuario!=null){
             juego escapeBabel = new juego(nombreusuario);
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
             ViewBag.juego=escapeBabel;
             return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+
         }else if(opcion=="historia"){
             return View("historia");
 
+        }else if(opcion=="tutorial"){
+            return View("tutorial");
 
         }else{
-            return View("tutorial");
+            return View("Index");
         }
     }
     [HttpPost]
@@ -89,7 +92,7 @@ public class HomeController : Controller
     private string salaActualVista(int salaActual, int maximaSala){
         string sala="sala";
         if(salaActual<=maximaSala){
-            sala+=salaActual;
+            sala=sala+salaActual;
         }else{
             sala="final";
         }
