@@ -11,6 +11,7 @@ public class juego{
 
     public Dictionary<int, string> dicResoluciones { get; private set;}
     public Dictionary<int, string> dicPuertas { get; private set;}
+    public Dictionary<int, string> dicPistas { get; private set;}
 
     
     public juego(string nombreUsuaroi){
@@ -18,6 +19,7 @@ public class juego{
         this.dicInventario=new Dictionary<int, string>();
         this.dicPuertas=new Dictionary<int, string>();
         this.dicResoluciones=new Dictionary<int, string>();
+        this.dicPistas=new Dictionary<int, string>();
         salaActual=1;
         itemSeleccionado=0;
         maxSalas=4;
@@ -25,6 +27,17 @@ public class juego{
         this.nombreUsuario=nombreUsuaroi;
 
 
+    }
+
+    public void InicializarJuego(){ //ESTO HAY QUE HACERLO URGENTE
+        //ESTO HAY QUE HACERLO URGENTE
+        //ESTO HAY QUE HACERLO URGENTE
+        //ESTO HAY QUE HACERLO URGENTE
+        //ESTO HAY QUE HACERLO URGENTE
+        //ESTO HAY QUE HACERLO URGENTE
+        //ESTO HAY QUE HACERLO URGENTE
+        //ESTO HAY QUE HACERLO URGENTE
+        //ESTO HAY QUE HACERLO URGENTE
     }
 
     public void cambiarItemSeleccionado(int itemSeleccionado){

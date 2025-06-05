@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FCgUCxc3zAPkLTSZmf5sV+F93ett2syzlkq9eEEiRdM=",
+  "Hash": "OKhwYxNuanzARE1mnuNij5QlbLXYNlwSuCdt8XOvaEo=",
   "Source": "tpSalaDeEscape",
   "BasePath": "_content/tpSalaDeEscape",
   "Mode": "Default",
@@ -74,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\images\\fondo sala 1.png",
+      "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala1.png",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\",
       "BasePath": "_content/tpSalaDeEscape",
-      "RelativePath": "images/fondo sala 1.png",
+      "RelativePath": "images/fondosala1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fondo sala 1.png"
+      "OriginalItemSpec": "wwwroot\\images\\fondosala1.png"
     },
     {
-      "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\images\\fondo sala 2.png",
+      "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala2.png",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\",
       "BasePath": "_content/tpSalaDeEscape",
-      "RelativePath": "images/fondo sala 2.png",
+      "RelativePath": "images/fondosala2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fondo sala 2.png"
+      "OriginalItemSpec": "wwwroot\\images\\fondosala2.png"
     },
     {
-      "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\images\\fondo sala 3.png",
+      "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala3.png",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\",
       "BasePath": "_content/tpSalaDeEscape",
-      "RelativePath": "images/fondo sala 3.png",
+      "RelativePath": "images/fondosala3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fondo sala 3.png"
+      "OriginalItemSpec": "wwwroot\\images\\fondosala3.png"
     },
     {
-      "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\images\\fondo sala 4.png",
+      "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala4.png",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\",
       "BasePath": "_content/tpSalaDeEscape",
-      "RelativePath": "images/fondo sala 4.png",
+      "RelativePath": "images/fondosala4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fondo sala 4.png"
+      "OriginalItemSpec": "wwwroot\\images\\fondosala4.png"
     },
     {
       "Identity": "C:\\Users\\49008593\\Desktop\\eheh\\Tp05SalaDeEscape\\wwwroot\\js\\site.js",

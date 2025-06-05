@@ -40,20 +40,24 @@
                 if(ViewBag.juego.dicInventario.ContainsKey(i)){
 
                         if(ViewBag.juego.itemSeleccionado == i){
-                                <div class="slotSeleccionado">
+                            <a href='@Url.Action("cambiarItem", "Home", new {item=i})'><div class="slotSeleccionado">
+                                eee
                                 <img src="~/@ViewBag.juego.dicInventario[i]" alt="item">
-                                </div>
+                            </div></a>
+                                
                         }else if (ViewBag.juego.dicInventario.containsKey(i)){
-                                <div>
+                            <a href='@Url.Action("cambiarItem", "Home", new {item=i})'><div>
+                                eee
                                 <img src="~/@ViewBag.juego.dicInventario[i]" alt="item">
-                                </div>
+                            </div></a>
+                                
                         } 
 
                 }else{
-
-                <div>
+                    <div>
                     <p></p>            
-                </div>  
+                    </div>
+                
 
                 }
         }

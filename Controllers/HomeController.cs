@@ -36,7 +36,7 @@ public class HomeController : Controller
             return View("Index");
         }
     }
-    [HttpPost]
+    
     public IActionResult cambiarItem(int item){
         juego escapeBabel =objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
         escapeBabel.cambiarItemSeleccionado(item);
@@ -64,9 +64,25 @@ public class HomeController : Controller
         }
     }
 
+    [HttpPost]
+    public IActionResult globoDialogo(int numeroPista){
+        juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
+        if(escapeBabel.dicPistas.ContainsKey(numeroPista)){
+            ViewBag.textoPista = escapeBabel.dicPistas[numeroPista];
+            return View(("pista"+numeroPista));
+        }else{
+            return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+        }
+        
+        
+    }
+    public IActionResult volverASala(){
+        juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
+        ViewBag.juego=escapeBabel;
+        
 
-
-
+        return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+    }
 
     [HttpPost]
     public IActionResult responderAcertijo(string respuestaUsuario, int numeroAcertijo, string recompensa){
@@ -98,5 +114,7 @@ public class HomeController : Controller
         }
         return sala;
     }
+
+
     
 }
