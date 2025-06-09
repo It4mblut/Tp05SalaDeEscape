@@ -1,31 +1,10 @@
-
-<footer>
-        @for(int i=0; i< ViewBag.juego.maxSlots; i++ ){
-                
-                if(ViewBag.juego.dicInventario.ContainsKey(i)){
-
-                        if(ViewBag.juego.itemSeleccionado == i){
-                                <div class="slotSeleccionado">
-                                <img src="~/@ViewBag.juego.dicInventario[i]" alt="item">
-                                </div>
-                        }else if (ViewBag.juego.dicInventario.containsKey(i)){
-                                <div>
-                                <img src="~/@ViewBag.juego.dicInventario[i]" alt="item">
-                                </div>
-                        } 
-
-                }else{
-
-                <div>
-                    <p></p>            
-                </div>  
-
-                }
-                
-
-                
-        
-                
-
+    
+    
+    
+    
+<div>
+        @foreach(string item in ViewBag.juego.dicInventario.Values){
+            <img src="~/@item" alt="item">
         }
-</footer>
+
+</div>

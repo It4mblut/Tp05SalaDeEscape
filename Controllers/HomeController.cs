@@ -20,47 +20,52 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult iniciar(string opcion=null, string nombreusuario=null){
 
-        if(nombreusuario!=null){
+        if (nombreusuario != null)
+        {
             juego escapeBabel = new juego(nombreusuario);
+            
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
-            ViewBag.juego=escapeBabel;
+            ViewBag.juego = escapeBabel;
             return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
 
-        }else if(opcion=="historia"){
-            return View("historia");
-
-        }else if(opcion=="tutorial"){
-            return View("tutorial");
-
-        }else{
+        }
+        else if (opcion == "historia" || opcion == "tutorial" || opcion == "jugar")
+        {
+            return View(opcion);
+            
+        }
+        else
+        {
             return View("Index");
         }
     }
     
-    public IActionResult cambiarItem(int item){
-        juego escapeBabel =objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
-        escapeBabel.cambiarItemSeleccionado(item);
-        HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
-        ViewBag.juego=escapeBabel;
-         return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
-    }
+
 [HttpPost]
     public IActionResult usarObjeto(int numPuerta){
-        juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
-        if(escapeBabel.dicPuertas.ContainsKey(numPuerta) && escapeBabel.dicInventario.ContainsKey(escapeBabel.itemSeleccionado)){
 
-            if(escapeBabel.dicPuertas[numPuerta] == escapeBabel.dicInventario[escapeBabel.itemSeleccionado]){
-                escapeBabel.cambiarNumeroSala(escapeBabel.salaActual+1);
+        juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
+        
+        if (escapeBabel.dicPuertas.ContainsKey(numPuerta))
+        {
+
+            if (escapeBabel.dicInventario.ContainsValue(escapeBabel.dicPuertas[numPuerta]))
+            {
+                escapeBabel.cambiarNumeroSala(escapeBabel.salaActual + 1);
                 HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
-                ViewBag.juego=escapeBabel;
-                 return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
-            }else{
-                ViewBag.juego=escapeBabel;
-                 return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+                ViewBag.juego = escapeBabel;
+                return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
             }
-        }else{
-            ViewBag.juego=escapeBabel;
-             return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+            else
+            {
+                ViewBag.juego = escapeBabel;
+                return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+            }
+        }
+        else
+        {
+            ViewBag.juego = escapeBabel;
+            return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
         }
     }
 

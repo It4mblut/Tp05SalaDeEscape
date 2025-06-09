@@ -34,31 +34,10 @@
 
 
 
-<footer>
-        @for(int i=0; i< ViewBag.juego.maxSlots; i++ ){
-                
-                if(ViewBag.juego.dicInventario.ContainsKey(i)){
-
-                        if(ViewBag.juego.itemSeleccionado == i){
-                            <a href='@Url.Action("cambiarItem", "Home", new {item=i})'><div class="slotSeleccionado">
-                                eee
-                                <img src="~/@ViewBag.juego.dicInventario[i]" alt="item">
-                            </div></a>
-                                
-                        }else if (ViewBag.juego.dicInventario.containsKey(i)){
-                            <a href='@Url.Action("cambiarItem", "Home", new {item=i})'><div>
-                                eee
-                                <img src="~/@ViewBag.juego.dicInventario[i]" alt="item">
-                            </div></a>
-                                
-                        } 
-
-                }else{
-                    <div>
-                    <p></p>            
-                    </div>
-                
-
-                }
+    <div>
+        @foreach(string item in ViewBag.juego.dicInventario.Values){
+            <img src="~/@item" alt="item">
         }
-</footer>
+
+    </div>
+       

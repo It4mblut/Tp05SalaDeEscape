@@ -4,8 +4,6 @@ public class juego{
 
     public string nombreUsuario { get; private set;}
     public Dictionary<int, string> dicInventario { get; private set;}
-    public int maxSlots { get; private set;}
-    public int itemSeleccionado { get; private set;}
     public int salaActual { get; private set;}
     public int maxSalas { get; private set;}
 
@@ -21,39 +19,24 @@ public class juego{
         this.dicResoluciones=new Dictionary<int, string>();
         this.dicPistas=new Dictionary<int, string>();
         salaActual=1;
-        itemSeleccionado=0;
         maxSalas=4;
-        maxSlots=6;
         this.nombreUsuario=nombreUsuaroi;
 
 
     }
 
     public void InicializarJuego(){ //ESTO HAY QUE HACERLO URGENTE
-        //ESTO HAY QUE HACERLO URGENTE
-        //ESTO HAY QUE HACERLO URGENTE
-        //ESTO HAY QUE HACERLO URGENTE
-        //ESTO HAY QUE HACERLO URGENTE
-        //ESTO HAY QUE HACERLO URGENTE
-        //ESTO HAY QUE HACERLO URGENTE
-        //ESTO HAY QUE HACERLO URGENTE
-        //ESTO HAY QUE HACERLO URGENTE
+        
     }
 
-    public void cambiarItemSeleccionado(int itemSeleccionado){
-        if(itemSeleccionado<=maxSlots && itemSeleccionado>=0){
-            maxSlots=itemSeleccionado;
-        }
-    }
     public void cambiarNumeroSala(int nuevaSala){
         if(nuevaSala>=1 && nuevaSala<=maxSalas){
             salaActual=nuevaSala;
         }
     }
     public void nuevoItem(string nuevoItem){
-        if(dicInventario.Count>=0 && dicInventario.Count<=maxSlots){
+        if(!dicInventario.ContainsValue(nuevoItem)){
             dicInventario.Add(dicInventario.Count, nuevoItem);
-
         }
     }
 
@@ -66,16 +49,6 @@ public class juego{
         }
         return sala;
     }
-
-
-
-
-
-
-
-
-
-
 
 
 }
