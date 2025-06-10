@@ -39,6 +39,14 @@ public class HomeController : Controller
             return View("Index");
         }
     }
+
+    private juego inicializarJuego(string nombreusuario)
+    {
+        juego nuevoJuego = new juego(nombreusuario);
+
+
+        return nuevoJuego;
+    }
     
 
 [HttpPost]
