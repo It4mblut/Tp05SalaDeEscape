@@ -26,6 +26,8 @@ public class HomeController : Controller
             
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
             ViewBag.juego = escapeBabel;
+            escapeBabel.nuevoJuego();
+            
             return View(escapeBabel.salaActualVista());
 
         }
@@ -57,8 +59,20 @@ public class HomeController : Controller
         if (escapeBabel.dicPuertas.ContainsKey(numPuerta))
         {
 
-            if (escapeBabel.dicInventario.ContainsValue(escapeBabel.dicPuertas[numPuerta]))
+            bool cumpleCondicion = true;
+
+            foreach(string objRequerido in escapeBabel.dicPuertas[numPuerta]){
+
+                if (!escapeBabel.dicInventario.ContainsValue(objRequerido))
+                {
+                    cumpleCondicion=false;
+                }
+            }
+
+
+            if (cumpleCondicion)
             {
+
                 escapeBabel.cambiarNumeroSala(escapeBabel.salaActual + 1);
                 HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
                 ViewBag.juego = escapeBabel;
@@ -84,9 +98,9 @@ public class HomeController : Controller
         ViewBag.juego = escapeBabel;
 
         if(escapeBabel.dicPistas.ContainsKey(numero) && (tipo=="pista" || tipo=="acertijo")){
-
+ 
             ViewBag.textoPista = escapeBabel.dicPistas[numero];
-            
+
             ViewBag.numeroDialogo = numero;
             ViewBag.recompensa = escapeBabel.dicRecompensas[numero];
             
@@ -114,6 +128,7 @@ public class HomeController : Controller
     public IActionResult responderAcertijo(string respuestaUsuario, int numeroAcertijo, string recompensa){
         
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
+
         if(escapeBabel.dicResoluciones.ContainsKey(numeroAcertijo)){
             if(escapeBabel.dicResoluciones[numeroAcertijo]==respuestaUsuario){
 

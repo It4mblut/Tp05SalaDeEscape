@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\crowbar.webp",
+      "PackagePath": "staticwebassets\\images\\crowbar.webp"
+    },
+    {
       "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala1.png",
       "PackagePath": "staticwebassets\\images\\fondosala1.png"
     },
@@ -39,6 +43,38 @@
     {
       "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala4.png",
       "PackagePath": "staticwebassets\\images\\fondosala4.png"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\libro.webp",
+      "PackagePath": "staticwebassets\\images\\libro.webp"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\llave1.png",
+      "PackagePath": "staticwebassets\\images\\llave1.png"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\llave2.png",
+      "PackagePath": "staticwebassets\\images\\llave2.png"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\llave3.png",
+      "PackagePath": "staticwebassets\\images\\llave3.png"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\pedazoLlave.png",
+      "PackagePath": "staticwebassets\\images\\pedazoLlave.png"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\pedazoLlave2.png",
+      "PackagePath": "staticwebassets\\images\\pedazoLlave2.png"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\piedra.jfif",
+      "PackagePath": "staticwebassets\\images\\piedra.jfif"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\soga.webp",
+      "PackagePath": "staticwebassets\\images\\soga.webp"
     },
     {
       "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\js\\site.js",

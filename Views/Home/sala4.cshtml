@@ -1,31 +1,51 @@
 <link rel="stylesheet" href="~/css/sala4.css">  
-    <a href="sala 4.html" ><div class="piedra">
+    <form action='@Url.Action("globoDialogo", "Home")' method="post">
         
-        <p>no</p>
-        <br><br>
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+            
+            <div class="piedra">
+                <p>no</p>
+                <br><br>
+            </div>
 
+        </button>
+    </form>
 
-    </div></a>
-    <a href=""><div class="caja">
+    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+        
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+            
+            <div class="caja">
+                <p>eee</p>
+                <br><br><br><br><br><br><br>
+            </div>
 
-        <p>eee</p>
-        <br><br><br><br><br><br><br>
+        </button>
+    </form>
 
+    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+        
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+            
+            <div class="cajafuertota">
+                <p>eee</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
 
-    </div></a>
-    <a href=""><div class="cajafuertota">
+        </button>
+    </form>
+    
+    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+        
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+            
+            <div class="salida">
+                <p>FINALISMAOJNRANSIOUJHGNJIUNBFDIOUNELIUSFDN</p>
+                <br><br><br><br><br><br><br>
+            </div>
 
-        <p>eee</p>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-    </div></a>
-    <a href="sala 1.html"><div class="salida">
-
-        <p>FINALISMAOJNRANSIOUJHGNJIUNBFDIOUNELIUSFDN</p>
-        <br><br><br><br><br><br><br>
-
-
-    </div></a>
+        </button>
+    </form>
     
     <div>
         @foreach(string item in ViewBag.juego.dicInventario.Values){
