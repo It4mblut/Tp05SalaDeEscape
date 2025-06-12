@@ -10,14 +10,18 @@ public class juego{
     public Dictionary<int, string> dicResoluciones { get; private set;}
     public Dictionary<int, string> dicPuertas { get; private set;}
     public Dictionary<int, string> dicPistas { get; private set;}
-
+    public Dictionary<int, string> dicRecompensas { get; private set;}
     
     public juego(string nombreUsuaroi){
 
         this.dicInventario=new Dictionary<int, string>();
         this.dicPuertas=new Dictionary<int, string>();
         this.dicResoluciones=new Dictionary<int, string>();
+        this.dicRecompensas=new Dictionary<int, string>();
+
+        
         this.dicPistas=new Dictionary<int, string>();
+        
         salaActual=1;
         maxSalas=4;
         this.nombreUsuario=nombreUsuaroi;

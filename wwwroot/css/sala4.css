@@ -1,0 +1,38 @@
+body{
+    background-image: url(fondo\ sala\ 4.png);
+    background-size: cover;
+}
+a div{
+    float: left;
+    background-color:deeppink;
+}
+
+.piedra{
+    width: 4%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 13%;
+}
+.caja{
+    width: 7%;
+    height: auto;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+.cajafuertota{
+
+
+    width: 16%;
+    height: auto;
+    margin-left: 6%;
+    margin-top: 1%;
+
+}
+.salida{
+    
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 20%;
+}

@@ -1,0 +1,36 @@
+body{
+    background-image: url(fondo\ sala\ 3.png);
+    background-size: cover;
+}
+a div{
+    float: left;
+    background-color: chocolate;
+}
+.puerta{
+    width: 20%;
+    height: auto;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+.libro{
+    width: 4%;
+    height: auto;
+    margin-left: 12%;
+    margin-top: 14%;
+}
+
+.falco{
+
+
+    width: 13%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 11%;
+
+}
+.tabal{
+    clear: both;
+    width: 20%;
+    height: auto;
+    margin-left: 35%;
+}

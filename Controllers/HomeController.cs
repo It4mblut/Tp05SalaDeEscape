@@ -89,6 +89,10 @@ public class HomeController : Controller
         
         
     }
+
+
+
+
     public IActionResult volverASala(){
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
         ViewBag.juego=escapeBabel;
@@ -104,9 +108,10 @@ public class HomeController : Controller
         if(escapeBabel.dicResoluciones.ContainsKey(numeroAcertijo)){
             if(escapeBabel.dicResoluciones[numeroAcertijo]==respuestaUsuario){
 
+
                 ViewBag.acertijoResuleto=numeroAcertijo;
                 ViewBag.juego=escapeBabel;
-
+    
                 return View("acierto");
             }else{
                 
@@ -117,6 +122,21 @@ public class HomeController : Controller
         ViewBag.juego=escapeBabel;
         return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
     }
+
+    public IActionResult recibirRecompensa(string recompensaNum){
+
+        juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
+
+        if(escapeBabel.dicRecompensas.ContainsKey(recompensaNum)){
+          escapeBabel.nuevoItem(escapeBabel.dicRecompensas[recompensaNum]);  
+        }
+        
+
+        ViewBag.juego=escapeBabel;
+        HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
+        return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+    }
+    
 
     private string salaActualVista(int salaActual, int maximaSala){
         string sala="sala";
