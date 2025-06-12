@@ -2,29 +2,71 @@
 <p>hola @ViewBag.juego.nombreUsuario</p>
 
     <section>
-    <a href=""><div>
-        x
-    </div></a>
-    <a href=""><div class="libro2">
-        x2
-    </div></a>
-    <a href=""><div class="libro1">
-        x3
-    </div></a>  
-    <a href=""><div class="puerta">
-       <p>
-        eee
-       </p> 
+    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+        
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+            
+            <div>
+              1
+            </div>
 
-    </div></a>
-    <a href=""><div class="cajaFuerte">
-        <p>eeee</p>
-        <br><br>
+        </button>
+    </form>
+        
+    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+        
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="2">
+            
+            <div class="libro2">
+                2  
+            </div>
 
+        </button>
+    </form>
 
+    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+        
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="3">
+            
+            <div class="libro1">
+                3
+            </div>
 
+        </button>
+    </form>
 
-    </div></a>
+        
+
+   
+    
+
+    
+    <form action='@Url.Action("usarObjeto", "Home")' method="post">
+        
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+            
+            <div class="puerta">
+                <p>
+                eee
+                </p> 
+            </div>
+
+        </button>
+    </form>
+     
+
+    
+    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+        
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="4">
+            
+            <div class="cajaFuerte">
+                XXXX
+            </div>
+
+        </button>
+    </form>
+    
     
     </section>
 

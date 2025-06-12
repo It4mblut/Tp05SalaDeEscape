@@ -6,7 +6,7 @@ body{
     background-size: cover;
 }
 
-section a div{
+section form button div{
 
     width: 2%;
     height: auto;
@@ -14,6 +14,7 @@ section a div{
     background-color: greenyellow;
     margin-left: 10%;
     margin-right: 10%;
+    cursor: pointer;
 }
 .libro1{
     float: none;

@@ -26,7 +26,7 @@ public class HomeController : Controller
             
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
             ViewBag.juego = escapeBabel;
-            return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+            return View(escapeBabel.salaActualVista());
 
         }
         else if (opcion == "historia" || opcion == "tutorial" || opcion == "jugar")
@@ -62,29 +62,38 @@ public class HomeController : Controller
                 escapeBabel.cambiarNumeroSala(escapeBabel.salaActual + 1);
                 HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
                 ViewBag.juego = escapeBabel;
-                return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+                return View(escapeBabel.salaActualVista());
             }
             else
             {
                 ViewBag.juego = escapeBabel;
-                return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+                return View(escapeBabel.salaActualVista());
             }
         }
         else
         {
             ViewBag.juego = escapeBabel;
-            return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+            return View(escapeBabel.salaActualVista());
         }
     }
 
     [HttpPost]
-    public IActionResult globoDialogo(int numeroPista){
+    public IActionResult globoDialogo(int numero, string tipo){
+        
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
-        if(escapeBabel.dicPistas.ContainsKey(numeroPista)){
-            ViewBag.textoPista = escapeBabel.dicPistas[numeroPista];
-            return View(("pista"+numeroPista));
+        ViewBag.juego = escapeBabel;
+
+        if(escapeBabel.dicPistas.ContainsKey(numero) && (tipo=="pista" || tipo=="acertijo")){
+
+            ViewBag.textoPista = escapeBabel.dicPistas[numero];
+            
+            ViewBag.numeroDialogo = numero;
+            ViewBag.recompensa = escapeBabel.dicRecompensas[numero];
+            
+            return View(tipo);
+
         }else{
-            return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+            return View(escapeBabel.salaActualVista());
         }
         
         
@@ -98,7 +107,7 @@ public class HomeController : Controller
         ViewBag.juego=escapeBabel;
         
 
-        return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+        return View(escapeBabel.salaActualVista());
     }
 
     [HttpPost]
@@ -120,34 +129,19 @@ public class HomeController : Controller
             }
         }
         ViewBag.juego=escapeBabel;
-        return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+        return View(escapeBabel.salaActualVista());
     }
 
     public IActionResult recibirRecompensa(string recompensaNum){
 
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
 
-        if(escapeBabel.dicRecompensas.ContainsKey(recompensaNum)){
-          escapeBabel.nuevoItem(escapeBabel.dicRecompensas[recompensaNum]);  
+        if(escapeBabel.dicRecompensas.ContainsValue(recompensaNum)){
+          escapeBabel.nuevoItem(recompensaNum);  
         }
-        
 
         ViewBag.juego=escapeBabel;
         HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
-        return View(salaActualVista(escapeBabel.salaActual, escapeBabel.maxSalas));
+        return View(escapeBabel.salaActualVista());
     }
-    
-
-    private string salaActualVista(int salaActual, int maximaSala){
-        string sala="sala";
-        if(salaActual<=maximaSala){
-            sala=sala+salaActual;
-        }else{
-            sala="final";
-        }
-        return sala;
-    }
-
-
-    
 }
