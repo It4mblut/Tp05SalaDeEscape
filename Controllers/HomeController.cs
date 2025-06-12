@@ -23,11 +23,11 @@ public class HomeController : Controller
         if (nombreusuario != null)
         {
             juego escapeBabel = new juego(nombreusuario);
-            
+            escapeBabel.nuevoJuego();
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
             ViewBag.juego = escapeBabel;
-            escapeBabel.nuevoJuego();
             
+
             return View(escapeBabel.salaActualVista());
 
         }
@@ -92,7 +92,7 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult globoDialogo(int numero, string tipo){
+    public IActionResult globoDialogo(int numero, string tipo ="pista"){
         
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
         ViewBag.juego = escapeBabel;

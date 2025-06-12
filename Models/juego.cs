@@ -14,13 +14,7 @@ public class juego{
     
     public juego(string nombreUsuaroi){
 
-        //this.dicInventario=new Dictionary<int, string>();
-        //this.dicPuertas=new Dictionary<int, string>();
-        //this.dicResoluciones=new Dictionary<int, string>();
-        //this.dicRecompensas=new Dictionary<int, string>();
-
-        
-        //this.dicPistas=new Dictionary<int, string>();
+        this.dicInventario=new Dictionary<int, string>();
         
         salaActual=1;
         maxSalas=4;
@@ -29,9 +23,6 @@ public class juego{
 
     }
 
-    public void InicializarJuego(){ //ESTO HAY QUE HACERLO URGENTE
-        
-    }
 
     public void cambiarNumeroSala(int nuevaSala){
         if(nuevaSala>=1 && nuevaSala<=maxSalas){
@@ -102,6 +93,7 @@ public class juego{
             {4,"No tengo pies pero todos me mueven, no hablo pero soy parte de mil batallas, blanco o negro siempre sigo órdenes, en el juego de reyes soy el más libre, pero fuera del tablero no soy nada."},
             {5,"Estoy delante de todos pero nunca me ves llegar, me abro para que pases y me cierro cuando te vas, soy el principio de una entrada pero también el fin de un encierro."},
 
+            {6,"Multiplicá la cantidad de cuentos en “El Aleph”, el singular numero del diablo, las letras en “Ficciones” y las letras en “Biblioteca”"}
             
 
         };
@@ -114,6 +106,7 @@ public class juego{
             {4,"reina"},
             {5,"puerta"},
 
+            {6,"9180"},
 
 
         };
