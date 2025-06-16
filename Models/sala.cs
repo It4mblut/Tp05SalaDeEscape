@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace tpSalaDeEscape.Models;
 
 public class sala
@@ -5,6 +7,7 @@ public class sala
     public string consigna { get; private set; }
     public string respuesta { get; private set; }
     
+    [JsonProperty]
     public Dictionary<string, globoDialogo> dicPistas { get; private set; }
 
     public sala(string consigna, string respuesta, Dictionary<string, globoDialogo> Pistas)

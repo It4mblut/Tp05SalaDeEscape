@@ -62,6 +62,7 @@ public class HomeController : Controller
         {
             escapeBabel.pasarDeSala();
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
+
             return View("acierto");
         }
         else

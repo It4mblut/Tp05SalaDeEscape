@@ -1,9 +1,11 @@
 namespace tpSalaDeEscape.Models;
-
+using Newtonsoft.Json;
 public class juego
 {
 
     public string nombreUsuario { get; private set; }
+    
+    [JsonProperty]
     public int salaActual { get; private set; }
     public int maxSalas { get; private set; }
     public Dictionary<int, sala> DicSalas { get; private set; }
@@ -11,7 +13,7 @@ public class juego
     public juego(string nombreUsuaroi)
     {
 
-        salaActual = 1;
+        
         maxSalas = 4;
         this.nombreUsuario = nombreUsuaroi;
         DicSalas = new Dictionary<int, sala>();
@@ -38,6 +40,8 @@ public class juego
 
     public void iniciarJuego()
     {
+        salaActual = 1;
+
         DicSalas = new Dictionary<int, sala>()
         {
             {1, new sala("En la puerta ves un candado. Requiere que se ingresen 4 numeros. Deberas buscar por la sala para encontrar pistas sobre la combinacion, suerte encontrando el ultimo numero", "1063",
