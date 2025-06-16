@@ -4,50 +4,41 @@
         <p>@ViewBag.consigna</p>
     </div>
 
-    <form action='@Url.Action("", "Home")' method="post">
+<section>
+    <div class="borges">
+        <form action='@Url.Action("responderAcertijo", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="4">
-            
-            <div class="puerta">
-                eee
-                
-            </div>
-
-        </button>
-    </form>
-
-    <form action='@Url.Action("", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="5">
-            
-            <div class="cajon1">
-              eee
-                
-            </div>
-
-        </button>
-    </form>
-
-    <form action='@Url.Action("", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="5">
+            <input type="text" name="respuestaUsuario"> <br>
+            <input type="submit" value="ingresar">
             
-            <div class="cajon2">
-              eee
-                
-            </div>
-
-        </button>
-    </form>
-
-    <form action='@Url.Action("", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="6">
-            
-            <div>
-                eee
-                
-            </div>
 
-        </button>
-    </form>
+        </form>
+    </div> 
+
+    <div class="cajon1">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala2_cajon1" style="all: unset; cursor: pointer;">
+                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+            
+            </button>
+        </form>
+    </div>
+
+    <div class="cajon2">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala2_cajon2" style="all: unset; cursor: pointer;">
+                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+            
+            </button>
+        </form>
+    </div>
+
+    
+    
+    
+    </section>

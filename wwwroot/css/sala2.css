@@ -1,7 +1,56 @@
 *{
-    margin: 0%;
+    margin-bottom: 0%;
+    
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-image: url('../images/fondosala2.png');
     background-size: cover;
+    
+    height: 100%;
+
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.pista{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 0.1%;
+}
+.borges{
+    width: 30%;
+    height: 30%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.cajon1{
+    width: 20%;
+    height: 10%;
+    margin-left: 38%;
+    margin-top: 22%;
+    color: transparent;
+}
+.cajon2{
+    width: 20%;
+    height: 10%;
+    margin-left: 38%;
+    margin-top: 1%;
+    color: transparent;
+
+}
+
+.borges form input{
+    margin-left: 40%;
+}
+.borges form input:last-child{
+    margin-left: 50%;
 }
