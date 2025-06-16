@@ -24,20 +24,19 @@ public class HomeController : Controller
         {
             juego escapeBabel = new juego(nombreusuario);
             escapeBabel.nuevoJuego();
+
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
             ViewBag.juego = escapeBabel;
-            
 
             return View(escapeBabel.salaActualVista());
 
         }
-        else if (opcion == "historia" || opcion == "tutorial" || opcion == "jugar")
+        else if (opcion == "historia" || opcion == "tutorial" || opcion == "jugar" || opcion=="desarrolladores")
         {
             return View(opcion);
-            
-        }
-        else
-        {
+
+        }else {
+
             return View("Index");
         }
     }
@@ -52,16 +51,16 @@ public class HomeController : Controller
     
 
 [HttpPost]
-    public IActionResult usarObjeto(int numPuerta){
+    public IActionResult usarObjeto(string Puerta){
 
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
         
-        if (escapeBabel.dicPuertas.ContainsKey(numPuerta))
+        if (escapeBabel.dicPuertas.ContainsKey(Puerta))
         {
 
             bool cumpleCondicion = true;
 
-            foreach(string objRequerido in escapeBabel.dicPuertas[numPuerta]){
+            foreach(string objRequerido in escapeBabel.dicPuertas[Puerta]){
 
                 if (!escapeBabel.dicInventario.ContainsValue(objRequerido))
                 {
@@ -77,6 +76,7 @@ public class HomeController : Controller
                 HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
                 ViewBag.juego = escapeBabel;
                 return View(escapeBabel.salaActualVista());
+
             }
             else
             {
@@ -92,21 +92,29 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult globoDialogo(int numero, string tipo ="pista"){
+    public IActionResult globoDialogo(string globoDialogo, string tipo ="pista"){
         
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
         ViewBag.juego = escapeBabel;
 
-        if(escapeBabel.dicPistas.ContainsKey(numero) && (tipo=="pista" || tipo=="acertijo")){
- 
-            ViewBag.textoPista = escapeBabel.dicPistas[numero];
 
-            ViewBag.numeroDialogo = numero;
-            ViewBag.recompensa = escapeBabel.dicRecompensas[numero];
+        if (escapeBabel.dicPistas.ContainsKey(globoDialogo) && (tipo == "pista" || tipo == "acertijo"))
+        {
+
+            ViewBag.textoPista = escapeBabel.dicPistas[globoDialogo];
+
+            ViewBag.numeroDialogo = globoDialogo;
+            if (tipo == "acertijo" && escapeBabel.dicRecompensas.ContainsKey(globoDialogo))
+            { 
+               ViewBag.recompensa = escapeBabel.dicRecompensas[globoDialogo]; 
+            }
+
             
+
             return View(tipo);
 
-        }else{
+        }else
+        {
             return View(escapeBabel.salaActualVista());
         }
         

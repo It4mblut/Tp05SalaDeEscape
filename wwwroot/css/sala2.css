@@ -2,7 +2,7 @@
     margin: 0%;
 }
 body{
-    background-image: url(fondo\ sala\ 2.png);
+    background-image: url('../images/fondosala2.png');
     background-size: cover;
 }
 body a div{
