@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using tpSalaDeEscape.Models;
+using Newtonsoft.Json;
 
 namespace tpSalaDeEscape.Controllers;
 
@@ -27,7 +28,7 @@ public class HomeController : Controller
 
             HttpContext.Session.SetString("babel", objeto.objectToString(escapeBabel));
             ViewBag.juego = escapeBabel;
-
+            ViewBag.consigna = escapeBabel.DicSalas[escapeBabel.salaActual].consigna;
             return View(escapeBabel.salaActualVista());
 
         }
@@ -45,6 +46,7 @@ public class HomeController : Controller
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
 
         ViewBag.juego=escapeBabel;
+        ViewBag.consigna = escapeBabel.DicSalas[escapeBabel.salaActual].consigna;
 
         return View(escapeBabel.salaActualVista());
     }
@@ -74,10 +76,10 @@ public class HomeController : Controller
         
 
 
-        if (escapeBabel.DicSalas[escapeBabel.salaActual].Pistas.ContainsKey(globoKey))
+        if (escapeBabel.DicSalas[escapeBabel.salaActual].dicPistas.ContainsKey(globoKey))
         {
-            ViewBag.pistaTxt = escapeBabel.DicSalas[escapeBabel.salaActual].Pistas[globoKey].texto;
-            ViewBag.pistaImg = escapeBabel.DicSalas[escapeBabel.salaActual].Pistas[globoKey].imagen;
+            ViewBag.pistaTxt = escapeBabel.DicSalas[escapeBabel.salaActual].dicPistas[globoKey].texto;
+            ViewBag.pistaImg = escapeBabel.DicSalas[escapeBabel.salaActual].dicPistas[globoKey].imagen;
             return View("pista");
         }
         else

@@ -1,9 +1,11 @@
 <link rel="stylesheet" href="~/css/sala1.css">
 
+    <p>@ViewBag.consigna</p>
+
     <section>
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+    <form action='@Url.Action("irAGloboDialogo", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="globoKey" value="sala1_globo1">
             
             <div>
               1
@@ -14,9 +16,9 @@
 
     </form>
         
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+    <form action='@Url.Action("irAGloboDialogo", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="2">
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="globoKey" value="sala1_globo2">
             
             <div class="libro2">
                 2  
@@ -25,9 +27,9 @@
         </button>
     </form>
 
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+    <form action='@Url.Action("irAGloboDialogo", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="3">
+        <button type="submit" style="all: unset; display: block; width: 100%;" name="globoKey" value="sala1_globo3">
             
             <div class="libro1">
                 3
@@ -36,28 +38,16 @@
         </button>
     </form>
 
-    <form action='@Url.Action("usarObjeto", "Home")' method="post">
+    <form action='@Url.Action("responderAcertijo", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
-            
-            <div class="puerta">
-                <p>
-                e
-                </p> 
-            </div>
+        
+        <div class="puerta">
+            <input type="number" name="respuestaUsuario" min="1000" max="9999">
+            <input type="submit" value="ingresar">
+        </div>
+        
 
-        </button>
     </form>
      
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="4">
-            
-            <div class="cajaFuerte">
-                XXXX
-            </div>
-
-        </button>
-        <input type="hidden" name="tipo" value="acertijo">
-    </form>
+    
     </section>

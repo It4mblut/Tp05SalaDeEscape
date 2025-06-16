@@ -30,7 +30,7 @@ public class juego
     public void pasarDeSala(){
         int nuevaSala = salaActual + 1;
 
-        if (nuevaSala >= 1 && nuevaSala <= maxSalas)
+        if (nuevaSala <= maxSalas)
         {
             salaActual = nuevaSala;
         }
