@@ -10,7 +10,12 @@ public class sala
     {
         this.consigna = consigna;
         this.respuesta = respuesta;
-        this.Pistas=Pistas;
+        this.Pistas = Pistas;
+    }
+
+    public bool respuestaEsCorrecta(string ingreso)
+    {
+        return (ingreso == respuesta);
     }
     
 }
