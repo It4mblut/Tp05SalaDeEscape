@@ -1,43 +1,70 @@
 *{
     margin-bottom: 0%;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-image: url('../images/fondosala1.png');
     background-size: cover;
+    
+    height: 100%;
+
 }
 
-section form button div{
 
-    width: 2%;
-    height: auto;
-    margin-top: 0%;
-    background-color: greenyellow;
-    margin-left: 10%;
-    margin-right: 10%;
-    cursor: pointer;
+.pista{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 0.1%;
 }
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.puerta{
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-top: 3%;
+    width: 14%;
+    height: 48%;
+}
+
+.puerta form input:first-child{
+    margin-top: 60%;
+    margin-left: 30%;
+}
+.puerta form input{
+    margin-left: 30%;
+}
+
+
 .libro1{
-    float: none;
-    clear: both;
-    margin-top: 5%;
+    background-color: greenyellow;
+    color: transparent;
+    width: 3%;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 10%;
 }
 .libro2{
+    background-color: red;
+    color: transparent;
+    width: 3%;
+    height: auto;
+    margin-right: 15%;
+    margin-top: 4%;
     float: right;
 }
-.puerta{
-    width: 14%;
-    height: 50%;
-    background-color: brown;
-    margin-top: 13%;
-    padding-bottom: 30%;
-    margin-left: 45%;
-
-}
-.cajaFuerte{
-    width: 14%;
-    height: 50%;
-    background-color: blue;
-    margin-top: 0%;
-    
-    margin-left: 45%;
+.libro3{
+    background-color: violet;
+    color: transparent;
+    width: 3%;
+    height: auto;
+    margin-top: 7%;
+    margin-left: 20%;
 }

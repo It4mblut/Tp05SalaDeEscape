@@ -1,6 +1,10 @@
 <link rel="stylesheet" href="~/css/sala2.css">    
 
-    <form action='@Url.Action("usarObjeto", "Home")' method="post">
+    <div class="pista">
+        <p>@ViewBag.consigna</p>
+    </div>
+
+    <form action='@Url.Action("", "Home")' method="post">
         
         <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="4">
             
@@ -12,7 +16,7 @@
         </button>
     </form>
 
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+    <form action='@Url.Action("", "Home")' method="post">
         
         <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="5">
             
@@ -24,7 +28,7 @@
         </button>
     </form>
 
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+    <form action='@Url.Action("", "Home")' method="post">
         
         <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="5">
             
@@ -36,7 +40,7 @@
         </button>
     </form>
 
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+    <form action='@Url.Action("", "Home")' method="post">
         
         <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="6">
             

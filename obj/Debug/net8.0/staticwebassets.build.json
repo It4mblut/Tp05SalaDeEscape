@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9uzKye7o4m9BKveE/6EQWFWHcIbYP+uhp3DFbtasv5Y=",
+  "Hash": "rcddThN6XLUOMlI8/9wOWP4W9b0rk7+SUL4gJEjwl18=",
   "Source": "tpSalaDeEscape",
   "BasePath": "_content/tpSalaDeEscape",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w5l90tpzdh",
-      "Integrity": "nEjocJrpNPi62Dpi5MtIDSgtN8ENkC8skTgxogtTAqM=",
+      "Fingerprint": "e8k7cxgr6l",
+      "Integrity": "LtJDZvXS3ylqSMYqXTtWr1dlHYNnG30ucb4S7bN3Oxg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\sala1.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "k6b5z4iyoj",
-      "Integrity": "JAWJJNfyIWn885uLAvaazIsXADMozbrhF0OrA2U9JNs=",
+      "Fingerprint": "c2pureux14",
+      "Integrity": "nBK2qNkV1l2B9CLQ+Nxujg+F7NV6JSRDP/cfyrx6TKg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\sala2.css"
@@ -701,7 +701,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "702"
+          "Value": "1113"
         },
         {
           "Name": "Content-Type",
@@ -709,11 +709,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nEjocJrpNPi62Dpi5MtIDSgtN8ENkC8skTgxogtTAqM=\""
+          "Value": "\"LtJDZvXS3ylqSMYqXTtWr1dlHYNnG30ucb4S7bN3Oxg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 21:23:07 GMT"
+          "Value": "Mon, 16 Jun 2025 19:41:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -723,12 +723,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nEjocJrpNPi62Dpi5MtIDSgtN8ENkC8skTgxogtTAqM="
+          "Value": "sha256-LtJDZvXS3ylqSMYqXTtWr1dlHYNnG30ucb4S7bN3Oxg="
         }
       ]
     },
     {
-      "Route": "css/sala1.w5l90tpzdh.css",
+      "Route": "css/sala1.e8k7cxgr6l.css",
       "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala1.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -738,7 +738,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "702"
+          "Value": "1113"
         },
         {
           "Name": "Content-Type",
@@ -746,11 +746,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nEjocJrpNPi62Dpi5MtIDSgtN8ENkC8skTgxogtTAqM=\""
+          "Value": "\"LtJDZvXS3ylqSMYqXTtWr1dlHYNnG30ucb4S7bN3Oxg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 21:23:07 GMT"
+          "Value": "Mon, 16 Jun 2025 19:41:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -760,7 +760,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w5l90tpzdh"
+          "Value": "e8k7cxgr6l"
         },
         {
           "Name": "label",
@@ -768,7 +768,52 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nEjocJrpNPi62Dpi5MtIDSgtN8ENkC8skTgxogtTAqM="
+          "Value": "sha256-LtJDZvXS3ylqSMYqXTtWr1dlHYNnG30ucb4S7bN3Oxg="
+        }
+      ]
+    },
+    {
+      "Route": "css/sala2.c2pureux14.css",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala2.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nBK2qNkV1l2B9CLQ+Nxujg+F7NV6JSRDP/cfyrx6TKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 16:28:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2pureux14"
+        },
+        {
+          "Name": "label",
+          "Value": "css/sala2.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBK2qNkV1l2B9CLQ+Nxujg+F7NV6JSRDP/cfyrx6TKg="
         }
       ]
     },
@@ -783,7 +828,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "415"
+          "Value": "117"
         },
         {
           "Name": "Content-Type",
@@ -791,11 +836,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JAWJJNfyIWn885uLAvaazIsXADMozbrhF0OrA2U9JNs=\""
+          "Value": "\"nBK2qNkV1l2B9CLQ+Nxujg+F7NV6JSRDP/cfyrx6TKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 22:02:09 GMT"
+          "Value": "Mon, 16 Jun 2025 16:28:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -805,52 +850,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JAWJJNfyIWn885uLAvaazIsXADMozbrhF0OrA2U9JNs="
-        }
-      ]
-    },
-    {
-      "Route": "css/sala2.k6b5z4iyoj.css",
-      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala2.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "415"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JAWJJNfyIWn885uLAvaazIsXADMozbrhF0OrA2U9JNs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Jun 2025 22:02:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k6b5z4iyoj"
-        },
-        {
-          "Name": "label",
-          "Value": "css/sala2.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JAWJJNfyIWn885uLAvaazIsXADMozbrhF0OrA2U9JNs="
+          "Value": "sha256-nBK2qNkV1l2B9CLQ+Nxujg+F7NV6JSRDP/cfyrx6TKg="
         }
       ]
     },

@@ -1,53 +1,53 @@
 <link rel="stylesheet" href="~/css/sala1.css">
 
-    <p>@ViewBag.consigna</p>
+    <div class="pista">
+        <p>@ViewBag.consigna</p>
+    </div>
 
     <section>
-    <form action='@Url.Action("irAGloboDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="globoKey" value="sala1_globo1">
+
+<div class="libro1">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala1_globo1" style="all: unset; cursor: pointer;">
+                <p>xxxx</p>
+                
             
-            <div>
-              1
-            </div>
-
-        </button>
-        
-
-    </form>
-        
-    <form action='@Url.Action("irAGloboDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="globoKey" value="sala1_globo2">
+            </button>
+        </form>
+    </div>
+<div class="libro2">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala1_globo2" style="all: unset; cursor: pointer;">
+                <p>xxxx</p>
+                
             
-            <div class="libro2">
-                2  
-            </div>
-
-        </button>
-    </form>
-
-    <form action='@Url.Action("irAGloboDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="globoKey" value="sala1_globo3">
+            </button>
+        </form>
+    </div>
+<div class="libro3">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala1_globo3" style="all: unset; cursor: pointer;">
+                <p>xxxx</p>
+                
             
-            <div class="libro1">
-                3
-            </div>
+            </button>
+        </form>
+    </div>
 
-        </button>
-    </form>
 
-    <form action='@Url.Action("responderAcertijo", "Home")' method="post">
+    <div class="puerta">
+        <form action='@Url.Action("responderAcertijo", "Home")' method="post">
         
         
-        <div class="puerta">
-            <input type="number" name="respuestaUsuario" min="1000" max="9999">
+        
+            <input type="number" name="respuestaUsuario" min="1000" max="9999"> <br>
             <input type="submit" value="ingresar">
-        </div>
+            
         
 
-    </form>
+        </form>
+    </div> 
+
      
     
-    </section>
+</section>
