@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\tpSalaDeEscape.csproj": {}
+    "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\tpSalaDeEscape.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\tpSalaDeEscape.csproj": {
+    "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\tpSalaDeEscape.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\tpSalaDeEscape.csproj",
+        "projectUniqueName": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\tpSalaDeEscape.csproj",
         "projectName": "tpSalaDeEscape",
-        "projectPath": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\tpSalaDeEscape.csproj",
-        "packagesPath": "C:\\Users\\LucaG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\obj\\",
+        "projectPath": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\tpSalaDeEscape.csproj",
+        "packagesPath": "C:\\Users\\49008593\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LucaG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\49008593\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -72,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,61 +1,60 @@
 <link rel="stylesheet" href="~/css/sala3.css">  
-    <form action='@Url.Action("usarObjeto", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
-            
-            <div>
-                <p>sala444444</p>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
-
-        </button>
-    </form>
-
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
-            
-            <div class="libro">
-              <p>eee</p>
-        <br><br><br>
-            </div>
-
-        </button>
-    </form>
     
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
+     <div class="pista">
+        <p>@ViewBag.consigna</p>
+    </div>
+    
+    <section>
+
+    
+
+    <div class="puerta">
+        <form action='@Url.Action("responderAcertijo", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+        
+        
+            <input type="text" name="respuestaUsuario"> <br>
+            <input type="submit" value="ingresar">
             
-            <div class="falco">
-                <p>eee</p>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
-
-        </button>
-    </form>
-
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
         
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
+
+        </form>
+    </div> 
+    
+    <div class="libor">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala3_libro" style="all: unset; cursor: pointer;">
+                <p>librolibro</p>
+                <p>librolibro</p>
             
-            <div class="tabal">
-                <p>eee</p>
-                <br><br>
-            </div>
+            </button>
+        </form>
+    </div>
 
-        </button>
-    </form>
+    <div class="falco">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala3_persona" style="all: unset; cursor: pointer;">
+                <p>dovstoyevskidovstoyevskidovstoyevski</p>
+                <p>dovstoyevskidovstoyevskidovstoyevski</p>
+                <p>dovstoyevskidovstoyevskidovstoyevski</p>
+                <p>dovstoyevskidovstoyevskidovstoyevski</p>
+                <p>dovstoyevskidovstoyevskidovstoyevski</p>
+                <p>dovstoyevskidovstoyevskidovstoyevski</p>
+            
+            </button>
+        </form>
+    </div>
 
-    <form action='@Url.Action("recibirRecompensa", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="recompensaNum" value="14">
+    <div class="tabal">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala3_tabla" style="all: unset; cursor: pointer;">
+                <p>XXXXXXXXXXXXXXXXXX</p>
+            
+            </button>
+        </form>
+    </div>
 
-            <div class="palanca">
-                <p>eee</p>
-                <br><br>
-            </div>
-
-        </button>
-    </form>
+    
+    
+    
+    </section>

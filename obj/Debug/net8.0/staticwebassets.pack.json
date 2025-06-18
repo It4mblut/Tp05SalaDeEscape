@@ -1,131 +1,131 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala1.css",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\css\\sala1.css",
       "PackagePath": "staticwebassets\\css\\sala1.css"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala2.css",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\css\\sala2.css",
       "PackagePath": "staticwebassets\\css\\sala2.css"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala3.css",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\css\\sala3.css",
       "PackagePath": "staticwebassets\\css\\sala3.css"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala4.css",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\css\\sala4.css",
       "PackagePath": "staticwebassets\\css\\sala4.css"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\crowbar.webp",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\crowbar.webp",
       "PackagePath": "staticwebassets\\images\\crowbar.webp"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala1.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala1.png",
       "PackagePath": "staticwebassets\\images\\fondosala1.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala2.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala2.png",
       "PackagePath": "staticwebassets\\images\\fondosala2.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala3.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala3.png",
       "PackagePath": "staticwebassets\\images\\fondosala3.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala4.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala4.png",
       "PackagePath": "staticwebassets\\images\\fondosala4.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\libro.webp",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\libro.webp",
       "PackagePath": "staticwebassets\\images\\libro.webp"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\llave1.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\llave1.png",
       "PackagePath": "staticwebassets\\images\\llave1.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\llave2.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\llave2.png",
       "PackagePath": "staticwebassets\\images\\llave2.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\llave3.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\llave3.png",
       "PackagePath": "staticwebassets\\images\\llave3.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\pedazoLlave.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\pedazoLlave.png",
       "PackagePath": "staticwebassets\\images\\pedazoLlave.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\pedazoLlave2.png",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\pedazoLlave2.png",
       "PackagePath": "staticwebassets\\images\\pedazoLlave2.png"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\piedra.jfif",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\piedra.jfif",
       "PackagePath": "staticwebassets\\images\\piedra.jfif"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\soga.webp",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\images\\soga.webp",
       "PackagePath": "staticwebassets\\images\\soga.webp"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\49008593\\Desktop\\had\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
@@ -139,10 +139,6 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.tpSalaDeEscape.props",
       "PackagePath": "buildTransitive\\tpSalaDeEscape.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.tpSalaDeEscape.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.tpSalaDeEscape.Microsoft.AspNetCore.StaticWebAssets.props",

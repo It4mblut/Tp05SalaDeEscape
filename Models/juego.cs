@@ -51,7 +51,7 @@ public class juego
                 { "sala1_globo3", new globoDialogo("Tercer numero; El número de letras en el nombre de aquel que imaginó la biblioteca sin fin.", null)},
             })},
 
-            {2, new sala("borges:-¿Conoces la palabra secreta "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso", "silencio",
+            {2, new sala("borges:-¿Conoces la palabra secreta "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso (puedes interactuar con los cajones)", "silencio",
             new Dictionary<string, globoDialogo>(){
                 { "sala2_cajon1", new globoDialogo(null, "*hacer imagen")},
                 { "sala2_cajon2", new globoDialogo(null, "*hacer imagen")},
