@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w75aXwZzcRpxQlIgRiCpgHdj3ZMzGLqgkvPjm0y7apk=",
+  "Hash": "GVpT3b0njwuI9QB00AsS0jOCeXDPo/Djgb4DGxHpIdo=",
   "Source": "tpSalaDeEscape",
   "BasePath": "_content/tpSalaDeEscape",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\css\\dialogo.css",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "css/dialogo.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dialogo.css"
+    },
     {
       "Identity": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\css\\sala1.css",
       "SourceId": "tpSalaDeEscape",
@@ -169,6 +188,25 @@
       "OriginalItemSpec": "wwwroot\\images\\cajon2.png"
     },
     {
+      "Identity": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\cajon3.png",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "images/cajon3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cajon3.png"
+    },
+    {
       "Identity": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala1.png",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
@@ -243,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\fondosala4.png"
+    },
+    {
+      "Identity": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\tabal.png",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "images/tabal.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tabal.png"
     },
     {
       "Identity": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\js\\site.js",

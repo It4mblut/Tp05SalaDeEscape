@@ -1,0 +1,19 @@
+
+img{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+body{
+    background-color: rgb(228, 198, 158);
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+ text-align: center;
+}

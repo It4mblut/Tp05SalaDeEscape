@@ -41,24 +41,25 @@ public class juego
 
         DicSalas = new Dictionary<int, sala>()
         {
-            {1, new sala("En la puerta ves un candado. Requiere que se ingresen 4 numeros. Deberas buscar por la sala para encontrar pistas sobre la combinacion, suerte encontrando el ultimo numero", "1063",
+            {1, new sala("En la puerta ves un candado. Requiere que se ingresen 4 numeros. Deberas buscar por la sala para encontrar pistas sobre la combinacion, suerte encontrando el ultimo numero", "7537",
             new Dictionary<string, globoDialogo>(){
-                { "sala1_globo1", new globoDialogo("Primer numero; El número de lados de la figura perfecta, si sólo uno bastara para definirla.", null)},
-                { "sala1_globo2", new globoDialogo("Segundo numero; En el día que se repite, el mismo número es siempre primero y siempre último", null)},
-                { "sala1_globo3", new globoDialogo("Tercer numero; El número de letras en el nombre de aquel que imaginó la biblioteca sin fin.", null)},
+                { "sala1_globo1", new globoDialogo("Primer numero; Si quieres saber quién soy, espera a que llueva. Contando los colores del arcoíris tendrás la prueba.", null)},
+                { "sala1_globo2", new globoDialogo("Segundo numero; ¿Qué número tiene el mismo número de letras que el valor que expresa?", null)},
+                { "sala1_globo3", new globoDialogo("Tercer numero; Omne trium perfectum", null)},
             })},
 
             {2, new sala("borges:-¿Conoces la palabra secreta, "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso (puedes interactuar con los cajones)", "silencio",
             new Dictionary<string, globoDialogo>(){
                 { "sala2_cajon1", new globoDialogo(null, "images/cajon1.png")},
                 { "sala2_cajon2", new globoDialogo(null, "images/cajon2.png")},
+                { "sala2_cajon3", new globoDialogo(null, "images/cajon3.png")},
             })},
 
             { 3, new sala("La puerta requiere una palabra clave que podras formar resolviendo los 3 acertijos ocultos por esta habitacion y juntando sus primeras 2 letras", "dragon",
             new Dictionary<string, globoDialogo>(){
                 { "sala3_persona", new globoDialogo("1-Me antecede quien cura o enseña, dos letras que el respeto despeña. En puertas de aulas o habitaciones, siempre me usan en presentaciones.", null)},
                 { "sala3_libro", new globoDialogo("2-Cae del cielo, corre en ríos, calma incendios, limpia líos. No tiene forma, pero da vida, y sin su esencia, nada anida.", null)},
-                { "sala3_tabla", new globoDialogo(null, "*imagen 3-Estoy en cada interruptor, soy el opuesto del apagador.")},
+                { "sala3_tabla", new globoDialogo(null, "images/tabal.png")},
             })},
 
             { 4, new sala("Llegaste al final de tu viaje, pero para escapar es necesario que encuentres el secreto de la inmortalidad. Busca por estos libros y encuentralo, pero ten cuidado, la biblioteca de babel intentara engañarte", "verbo",

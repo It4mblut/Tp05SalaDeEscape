@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\css\\dialogo.css",
+      "PackagePath": "staticwebassets\\css\\dialogo.css"
+    },
+    {
       "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\css\\sala1.css",
       "PackagePath": "staticwebassets\\css\\sala1.css"
     },
@@ -33,6 +37,10 @@
       "PackagePath": "staticwebassets\\images\\cajon2.png"
     },
     {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\cajon3.png",
+      "PackagePath": "staticwebassets\\images\\cajon3.png"
+    },
+    {
       "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala1.png",
       "PackagePath": "staticwebassets\\images\\fondosala1.png"
     },
@@ -47,6 +55,10 @@
     {
       "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala4.png",
       "PackagePath": "staticwebassets\\images\\fondosala4.png"
+    },
+    {
+      "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\images\\tabal.png",
+      "PackagePath": "staticwebassets\\images\\tabal.png"
     },
     {
       "Id": "C:\\Users\\49008593\\Desktop\\hab\\Tp05SalaDeEscape\\wwwroot\\js\\site.js",

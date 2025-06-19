@@ -54,8 +54,14 @@ public class HomeController : Controller
         return View(escapeBabel.salaActualVista());
     }
 
+    [HttpGet]
+    public IActionResult responderAcertijo ()
+    {
+       return View("equivocacion");
+    }
+
     [HttpPost]
-    public IActionResult responderAcertijo(string respuestaUsuario){
+    public IActionResult responderAcertijo(string ? respuestaUsuario){
         
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
         ViewBag.juego=escapeBabel;
@@ -72,6 +78,7 @@ public class HomeController : Controller
         {
             return View("equivocacion");
         }
+
     }
 
     public IActionResult irAGloboDialogo(string globoKey)
