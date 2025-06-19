@@ -46,7 +46,10 @@ public class HomeController : Controller
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
 
         ViewBag.juego=escapeBabel;
-        ViewBag.consigna = escapeBabel.DicSalas[escapeBabel.salaActual].consigna;
+        if(escapeBabel.DicSalas.ContainsKey(escapeBabel.salaActual)){
+            ViewBag.consigna = escapeBabel.DicSalas[escapeBabel.salaActual].consigna;    
+        }
+        
 
         return View(escapeBabel.salaActualVista());
     }

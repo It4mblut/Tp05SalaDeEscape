@@ -15,6 +15,7 @@ public class juego
 
         
         maxSalas = 4;
+
         this.nombreUsuario = nombreUsuaroi;
         DicSalas = new Dictionary<int, sala>();
 
@@ -31,11 +32,7 @@ public class juego
 
     public void pasarDeSala(){
         int nuevaSala = salaActual + 1;
-
-        if (nuevaSala <= maxSalas)
-        {
-            salaActual = nuevaSala;
-        }
+        salaActual = nuevaSala;
     }
 
     public void iniciarJuego()
@@ -51,17 +48,17 @@ public class juego
                 { "sala1_globo3", new globoDialogo("Tercer numero; El número de letras en el nombre de aquel que imaginó la biblioteca sin fin.", null)},
             })},
 
-            {2, new sala("borges:-¿Conoces la palabra secreta "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso (puedes interactuar con los cajones)", "silencio",
+            {2, new sala("borges:-¿Conoces la palabra secreta, "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso (puedes interactuar con los cajones)", "silencio",
             new Dictionary<string, globoDialogo>(){
-                { "sala2_cajon1", new globoDialogo(null, "*hacer imagen")},
-                { "sala2_cajon2", new globoDialogo(null, "*hacer imagen")},
+                { "sala2_cajon1", new globoDialogo(null, "images/cajon1.png")},
+                { "sala2_cajon2", new globoDialogo(null, "images/cajon2.png")},
             })},
 
             { 3, new sala("La puerta requiere una palabra clave que podras formar resolviendo los 3 acertijos ocultos por esta habitacion y juntando sus primeras 2 letras", "dragon",
             new Dictionary<string, globoDialogo>(){
                 { "sala3_persona", new globoDialogo("1-Me antecede quien cura o enseña, dos letras que el respeto despeña. En puertas de aulas o habitaciones, siempre me usan en presentaciones.", null)},
                 { "sala3_libro", new globoDialogo("2-Cae del cielo, corre en ríos, calma incendios, limpia líos. No tiene forma, pero da vida, y sin su esencia, nada anida.", null)},
-                { "sala3_tabla", new globoDialogo(null, "*imagen --> 3-Estoy en cada interruptor, soy el opuesto del apagador.")},
+                { "sala3_tabla", new globoDialogo(null, "*imagen 3-Estoy en cada interruptor, soy el opuesto del apagador.")},
             })},
 
             { 4, new sala("Llegaste al final de tu viaje, pero para escapar es necesario que encuentres el secreto de la inmortalidad. Busca por estos libros y encuentralo, pero ten cuidado, la biblioteca de babel intentara engañarte", "verbo",

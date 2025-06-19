@@ -1,48 +1,46 @@
 <link rel="stylesheet" href="~/css/sala4.css">  
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
-            
-            <div class="piedra">
-                <p>no</p>
-                <br><br>
-            </div>
-
-        </button>
-    </form>
-
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
-            
-            <div class="caja">
-                <p>eee</p>
-                <br><br><br><br><br><br><br>
-            </div>
-
-        </button>
-    </form>
-
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
-            
-            <div class="cajafuertota">
-                <p>eee</p>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
-
-        </button>
-    </form>
+       
+       
+    <div class="pista">
+        <p>@ViewBag.consigna</p>
+    </div>
     
-    <form action='@Url.Action("globoDialogo", "Home")' method="post">
-        
-        <button type="submit" style="all: unset; display: block; width: 100%;" name="numero" value="1">
-            
-            <div class="salida">
-                <p>FINALISMAOJNRANSIOUJHGNJIUNBFDIOUNELIUSFDN</p>
-                <br><br><br><br><br><br><br>
-            </div>
+       
+    <section>
 
-        </button>
-    </form>
+    
+    
+    <div class="libro1">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala4_libro1" style="all: unset; cursor: pointer;">
+                <p>libro1</p>
+            </button>
+        </form>
+    </div>
+
+    <div class="libro2">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala4_libro2" style="all: unset; cursor: pointer;">
+                <p>libro2</p>
+            </button>
+        </form>
+    </div>
+
+    <div class="libro3">
+        <form action='@Url.Action("irAGloboDialogo", "Home")' method="post" style="display: inline;">
+            <button type="submit" name="globoKey" value="sala4_libro3" style="all: unset; cursor: pointer;">
+                <p>libro3</p>
+            </button>
+        </form>
+    </div>
+
+    <div class="hoyoFinal">
+        <form action='@Url.Action("responderAcertijo", "Home")' method="post">
+        
+            <input type="text" name="respuestaUsuario"> <br>
+            <input type="submit" value="ingresar">
+            
+        </form>
+    </div> 
+
+    </section>
