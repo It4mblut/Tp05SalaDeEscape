@@ -34,7 +34,6 @@ section{
 
 
 .libro1{
-    background-color: greenyellow;
     color: transparent;
     width: 3%;
     height: auto;
@@ -42,7 +41,6 @@ section{
     margin-left: 10%;
 }
 .libro2{
-    background-color: red;
     color: transparent;
     width: 3%;
     height: auto;
@@ -51,14 +49,25 @@ section{
     float: right;
 }
 .libro3{
-    background-color: violet;
     color: transparent;
     width: 3%;
     height: auto;
     margin-top: 7%;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 
+.libro1:hover{
+    background-color: white;
+    opacity: 0.4;
+}
+.libro2:hover{
+    background-color: white;
+    opacity: 0.4;
+}
+.libro3:hover{
+    background-color: white;
+    opacity: 0.4;
+}
 
 .hoyoFinal{
     color: transparent;

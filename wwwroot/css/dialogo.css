@@ -14,6 +14,17 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-form{
- text-align: center;
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.retornar input{
+    background-color: red;
+    color: white;
+    width: 5%;
+    height: auto;
+    float: left;
+    cursor: pointer;
 }
