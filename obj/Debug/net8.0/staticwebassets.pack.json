@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\final.css"
     },
     {
+      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\inicio.css",
+      "PackagePath": "staticwebassets\\css\\inicio.css"
+    },
+    {
       "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala1.css",
       "PackagePath": "staticwebassets\\css\\sala1.css"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\dosvtoyesvkiFestivo.png",
       "PackagePath": "staticwebassets\\images\\dosvtoyesvkiFestivo.png"
+    },
+    {
+      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondoInicio.webp",
+      "PackagePath": "staticwebassets\\images\\fondoInicio.webp"
     },
     {
       "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala1.png",
@@ -123,6 +131,14 @@
     {
       "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\music\\cancionFinal.mp3",
+      "PackagePath": "staticwebassets\\music\\cancionFinal.mp3"
+    },
+    {
+      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\music\\cancionMenu.mp3",
+      "PackagePath": "staticwebassets\\music\\cancionMenu.mp3"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.tpSalaDeEscape.props",

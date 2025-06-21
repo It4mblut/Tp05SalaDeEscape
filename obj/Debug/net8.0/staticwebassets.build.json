@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kr4/7y8XL35jPTJCwQKIcVQz+pArwD5Hopd7PEBpRmM=",
+  "Hash": "Svh/z51sx56YHXUgxkO+SFjaehPsUFObjrJqD6JLOzU=",
   "Source": "tpSalaDeEscape",
   "BasePath": "_content/tpSalaDeEscape",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\final.css"
+    },
+    {
+      "Identity": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\inicio.css",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "css/inicio#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ba16bd80y",
+      "Integrity": "cYy9aosW1TZGqMPW+eLU1kJezK2U1+dfSzUSBf/oxLo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\inicio.css"
     },
     {
       "Identity": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\sala1.css",
@@ -199,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nvo4gkcbwp",
-      "Integrity": "DUno/4w9JZj1mSKtUzNsMdVSFrxqmbi3WPkSbW7a2Co=",
+      "Fingerprint": "9nfsyygbnl",
+      "Integrity": "y9fxCR1YopvSBV3fDlcWBecJ+7COz9lTmRzlHpnU1oI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cajon1.png"
@@ -220,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n6i86hl6gs",
-      "Integrity": "8XdJrDiAvbzYROqNsloMWLwX9xQQ1uShDqyEgkKSfNw=",
+      "Fingerprint": "foksw4z6o3",
+      "Integrity": "UUikZ4eM6MzBRMxl1P/TBVAF/Qp9OApudF3x/7uyV7c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cajon2.png"
@@ -241,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e2euig9a76",
-      "Integrity": "SrsNTWhXvNvxAIn4oJmBPTS62axKYuzX/OaKhPrT8oE=",
+      "Fingerprint": "qh0qzkmkfe",
+      "Integrity": "/re3dl8LR3sCuLHGXWb7hZKgBmCVvKRC/5gxynLihWo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cajon3.png"
@@ -288,6 +309,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\dosvtoyesvkiFestivo.png"
+    },
+    {
+      "Identity": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondoInicio.webp",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "images/fondoInicio#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h5w37pfnpt",
+      "Integrity": "ex8ZuhanvhrS/GQ+Q4j+CjWiCJCxAle6uAfbwqvnhY4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fondoInicio.webp"
     },
     {
       "Identity": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondosala1.png",
@@ -666,6 +708,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\music\\cancionFinal.mp3",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "music/cancionFinal#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cbf31ds33x",
+      "Integrity": "uBpy3YOBlEqxoAJjWqafUV/vKDpU6sOuxo4CZgJQUO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\music\\cancionFinal.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\music\\cancionMenu.mp3",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "music/cancionMenu#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pxms1tt0vw",
+      "Integrity": "45eJ9S/6KlrFylNh8xtf3a+ZDaR/lAQUVCHqC0+wfmM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\music\\cancionMenu.mp3"
     }
   ],
   "Endpoints": [
@@ -830,6 +914,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ONIvNa8pJnDESX62eTSzDd10BAX0OnDiFy4pVhnVHTg="
+        }
+      ]
+    },
+    {
+      "Route": "css/inicio.5ba16bd80y.css",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\inicio.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYy9aosW1TZGqMPW+eLU1kJezK2U1+dfSzUSBf/oxLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 18:27:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ba16bd80y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/inicio.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYy9aosW1TZGqMPW+eLU1kJezK2U1+dfSzUSBf/oxLo="
+        }
+      ]
+    },
+    {
+      "Route": "css/inicio.css",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\inicio.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cYy9aosW1TZGqMPW+eLU1kJezK2U1+dfSzUSBf/oxLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 18:27:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cYy9aosW1TZGqMPW+eLU1kJezK2U1+dfSzUSBf/oxLo="
         }
       ]
     },
@@ -1326,7 +1492,7 @@
       ]
     },
     {
-      "Route": "images/cajon1.nvo4gkcbwp.png",
+      "Route": "images/cajon1.9nfsyygbnl.png",
       "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\cajon1.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1336,7 +1502,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "378936"
+          "Value": "214086"
         },
         {
           "Name": "Content-Type",
@@ -1344,11 +1510,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DUno/4w9JZj1mSKtUzNsMdVSFrxqmbi3WPkSbW7a2Co=\""
+          "Value": "\"y9fxCR1YopvSBV3fDlcWBecJ+7COz9lTmRzlHpnU1oI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 15:20:59 GMT"
+          "Value": "Sat, 21 Jun 2025 18:04:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1358,7 +1524,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nvo4gkcbwp"
+          "Value": "9nfsyygbnl"
         },
         {
           "Name": "label",
@@ -1366,7 +1532,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DUno/4w9JZj1mSKtUzNsMdVSFrxqmbi3WPkSbW7a2Co="
+          "Value": "sha256-y9fxCR1YopvSBV3fDlcWBecJ+7COz9lTmRzlHpnU1oI="
         }
       ]
     },
@@ -1381,7 +1547,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "378936"
+          "Value": "214086"
         },
         {
           "Name": "Content-Type",
@@ -1389,11 +1555,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DUno/4w9JZj1mSKtUzNsMdVSFrxqmbi3WPkSbW7a2Co=\""
+          "Value": "\"y9fxCR1YopvSBV3fDlcWBecJ+7COz9lTmRzlHpnU1oI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 15:20:59 GMT"
+          "Value": "Sat, 21 Jun 2025 18:04:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1403,12 +1569,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DUno/4w9JZj1mSKtUzNsMdVSFrxqmbi3WPkSbW7a2Co="
+          "Value": "sha256-y9fxCR1YopvSBV3fDlcWBecJ+7COz9lTmRzlHpnU1oI="
         }
       ]
     },
     {
-      "Route": "images/cajon2.n6i86hl6gs.png",
+      "Route": "images/cajon2.foksw4z6o3.png",
       "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\cajon2.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1418,7 +1584,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "384478"
+          "Value": "212872"
         },
         {
           "Name": "Content-Type",
@@ -1426,11 +1592,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8XdJrDiAvbzYROqNsloMWLwX9xQQ1uShDqyEgkKSfNw=\""
+          "Value": "\"UUikZ4eM6MzBRMxl1P/TBVAF/Qp9OApudF3x/7uyV7c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 15:20:59 GMT"
+          "Value": "Sat, 21 Jun 2025 18:10:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1440,7 +1606,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n6i86hl6gs"
+          "Value": "foksw4z6o3"
         },
         {
           "Name": "label",
@@ -1448,7 +1614,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8XdJrDiAvbzYROqNsloMWLwX9xQQ1uShDqyEgkKSfNw="
+          "Value": "sha256-UUikZ4eM6MzBRMxl1P/TBVAF/Qp9OApudF3x/7uyV7c="
         }
       ]
     },
@@ -1463,7 +1629,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "384478"
+          "Value": "212872"
         },
         {
           "Name": "Content-Type",
@@ -1471,11 +1637,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8XdJrDiAvbzYROqNsloMWLwX9xQQ1uShDqyEgkKSfNw=\""
+          "Value": "\"UUikZ4eM6MzBRMxl1P/TBVAF/Qp9OApudF3x/7uyV7c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 15:20:59 GMT"
+          "Value": "Sat, 21 Jun 2025 18:10:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1485,52 +1651,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8XdJrDiAvbzYROqNsloMWLwX9xQQ1uShDqyEgkKSfNw="
-        }
-      ]
-    },
-    {
-      "Route": "images/cajon3.e2euig9a76.png",
-      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\cajon3.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "616128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SrsNTWhXvNvxAIn4oJmBPTS62axKYuzX/OaKhPrT8oE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 15:20:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e2euig9a76"
-        },
-        {
-          "Name": "label",
-          "Value": "images/cajon3.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SrsNTWhXvNvxAIn4oJmBPTS62axKYuzX/OaKhPrT8oE="
+          "Value": "sha256-UUikZ4eM6MzBRMxl1P/TBVAF/Qp9OApudF3x/7uyV7c="
         }
       ]
     },
@@ -1545,7 +1666,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "616128"
+          "Value": "559598"
         },
         {
           "Name": "Content-Type",
@@ -1553,11 +1674,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SrsNTWhXvNvxAIn4oJmBPTS62axKYuzX/OaKhPrT8oE=\""
+          "Value": "\"/re3dl8LR3sCuLHGXWb7hZKgBmCVvKRC/5gxynLihWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 15:20:59 GMT"
+          "Value": "Sat, 21 Jun 2025 17:48:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1567,7 +1688,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SrsNTWhXvNvxAIn4oJmBPTS62axKYuzX/OaKhPrT8oE="
+          "Value": "sha256-/re3dl8LR3sCuLHGXWb7hZKgBmCVvKRC/5gxynLihWo="
+        }
+      ]
+    },
+    {
+      "Route": "images/cajon3.qh0qzkmkfe.png",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\cajon3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "559598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/re3dl8LR3sCuLHGXWb7hZKgBmCVvKRC/5gxynLihWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 17:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qh0qzkmkfe"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cajon3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/re3dl8LR3sCuLHGXWb7hZKgBmCVvKRC/5gxynLihWo="
         }
       ]
     },
@@ -1732,6 +1898,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+r6UdPAN4eV21XHXglko3DtP2VNxeQeu/dRtYr1eiRo="
+        }
+      ]
+    },
+    {
+      "Route": "images/fondoInicio.h5w37pfnpt.webp",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondoInicio.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ex8ZuhanvhrS/GQ+Q4j+CjWiCJCxAle6uAfbwqvnhY4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 18:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h5w37pfnpt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fondoInicio.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ex8ZuhanvhrS/GQ+Q4j+CjWiCJCxAle6uAfbwqvnhY4="
+        }
+      ]
+    },
+    {
+      "Route": "images/fondoInicio.webp",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\fondoInicio.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ex8ZuhanvhrS/GQ+Q4j+CjWiCJCxAle6uAfbwqvnhY4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 18:25:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ex8ZuhanvhrS/GQ+Q4j+CjWiCJCxAle6uAfbwqvnhY4="
         }
       ]
     },
@@ -3208,6 +3456,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "music/cancionFinal.cbf31ds33x.mp3",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\music\\cancionFinal.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6061423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uBpy3YOBlEqxoAJjWqafUV/vKDpU6sOuxo4CZgJQUO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 17:01:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cbf31ds33x"
+        },
+        {
+          "Name": "label",
+          "Value": "music/cancionFinal.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uBpy3YOBlEqxoAJjWqafUV/vKDpU6sOuxo4CZgJQUO4="
+        }
+      ]
+    },
+    {
+      "Route": "music/cancionFinal.mp3",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\music\\cancionFinal.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6061423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uBpy3YOBlEqxoAJjWqafUV/vKDpU6sOuxo4CZgJQUO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 17:01:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uBpy3YOBlEqxoAJjWqafUV/vKDpU6sOuxo4CZgJQUO4="
+        }
+      ]
+    },
+    {
+      "Route": "music/cancionMenu.mp3",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\music\\cancionMenu.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2578808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"45eJ9S/6KlrFylNh8xtf3a+ZDaR/lAQUVCHqC0+wfmM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 18:30:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-45eJ9S/6KlrFylNh8xtf3a+ZDaR/lAQUVCHqC0+wfmM="
+        }
+      ]
+    },
+    {
+      "Route": "music/cancionMenu.pxms1tt0vw.mp3",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\music\\cancionMenu.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2578808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"45eJ9S/6KlrFylNh8xtf3a+ZDaR/lAQUVCHqC0+wfmM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 18:30:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pxms1tt0vw"
+        },
+        {
+          "Name": "label",
+          "Value": "music/cancionMenu.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-45eJ9S/6KlrFylNh8xtf3a+ZDaR/lAQUVCHqC0+wfmM="
         }
       ]
     }

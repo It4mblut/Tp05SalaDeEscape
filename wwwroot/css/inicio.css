@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    
+    background-image: url('../images/fondoInicio.webp');
+    background-size: cover;
+    color: white;
+    text-shadow: -2px -2px black;
+    text-shadow: 2px -2px black;
+    text-shadow: -2px 2px black;
+    text-shadow: 2px 2px black;
+
+}
+h1{
+    margin-bottom: 2%;
+    font-size: xx-large;
+}
+p{
+    font-size: x-large;
+}
+
+form input{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    width: 30%;
+    height: auto;
+}

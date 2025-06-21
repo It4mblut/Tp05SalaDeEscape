@@ -48,7 +48,7 @@ public class juego
                 { "sala1_globo3", new globoDialogo("Tercer numero; Omne trium perfectum", null)},
             })},
 
-            {2, new sala("borges:-¿Conoces la palabra secreta, "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso (puedes interactuar con los cajones)", "silencio",
+            {2, new sala("borges:-¿Conoces la palabra secreta, "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso (puedes interactuar con los cajones)", "montaña",
             new Dictionary<string, globoDialogo>(){
                 { "sala2_cajon1", new globoDialogo(null, "images/cajon1.png")},
                 { "sala2_cajon2", new globoDialogo(null, "images/cajon2.png")},
