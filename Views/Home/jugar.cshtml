@@ -4,13 +4,14 @@
 <h1>Ingresa tu nombre</h1>
 
 <form action='@Url.Action("iniciar", "Home")' method="post">
-        nombre de usuario: <input type="text" name="nombreusuario"> <br>
+        nombre de usuario:
+        <input type="text" name="nombreusuario" class="nombreUser"> <br>
         <input type="submit" name="" id="" value="comienza la aventura">
         
 </form>
 
 <form action='@Url.Action("iniciar", "Home")' method="post">
-    <input type="submit" name="" id="" value="return">
+    <input type="submit" name="" id="" value="volver">
 </form>
 
 <audio src="~/music/cancionMenu.mp3" autoplay></audio>

@@ -52,7 +52,7 @@ section{
     width: 20%;
     height: 10%;
     margin-left: 38%;
-    margin-top: 4%;
+    margin-top: 2%;
     color: transparent;
 
 }
@@ -65,6 +65,18 @@ section{
     margin-top: 20%;
     margin-right: 30%;
 
+}
+.cajon1:hover{
+    background-color: white;
+    opacity: 0.4;
+}
+.cajon2:hover{
+    background-color: white;
+    opacity: 0.4;
+}
+.cajon3:hover{
+    background-color: white;
+    opacity: 0.4;
 }
 
 .borges form input{
