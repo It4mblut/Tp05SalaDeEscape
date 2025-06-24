@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XVQBQFqOnQDSAYmmNM9Rc4rTcQGcQrTh8e3TFtgwJGA=",
+  "Hash": "ZIVREei4dWrLv+6CrNyC1CEmEhsIBNebZvT2ZSWQPjg=",
   "Source": "tpSalaDeEscape",
   "BasePath": "_content/tpSalaDeEscape",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y93y4lwvoh",
-      "Integrity": "6gKqdwJwqGyKmTLfyII+Atkr0ucrMNuygti662+ZOXE=",
+      "Fingerprint": "0nynwfdm6z",
+      "Integrity": "5ORbDHoV0A6XrNLwcdCbM4je+m7kH7yPxGb/Qj6PCb4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dialogo.css"
@@ -204,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\aciertoPuerta.png",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "images/aciertoPuerta#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6j5fn4xuai",
+      "Integrity": "wmAxp1/1rKYWJt1CuE7oVFjcTgmfQpN2WwRSoba7doY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aciertoPuerta.png"
     },
     {
       "Identity": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\cajon1.png",
@@ -775,6 +796,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/dialogo.0nynwfdm6z.css",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\dialogo.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ORbDHoV0A6XrNLwcdCbM4je+m7kH7yPxGb/Qj6PCb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 21:36:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nynwfdm6z"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dialogo.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ORbDHoV0A6XrNLwcdCbM4je+m7kH7yPxGb/Qj6PCb4="
+        }
+      ]
+    },
+    {
       "Route": "css/dialogo.css",
       "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\dialogo.css",
       "Selectors": [],
@@ -785,7 +851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1011"
+          "Value": "1046"
         },
         {
           "Name": "Content-Type",
@@ -793,11 +859,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6gKqdwJwqGyKmTLfyII+Atkr0ucrMNuygti662+ZOXE=\""
+          "Value": "\"5ORbDHoV0A6XrNLwcdCbM4je+m7kH7yPxGb/Qj6PCb4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 21:25:58 GMT"
+          "Value": "Tue, 24 Jun 2025 21:36:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -807,52 +873,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6gKqdwJwqGyKmTLfyII+Atkr0ucrMNuygti662+ZOXE="
-        }
-      ]
-    },
-    {
-      "Route": "css/dialogo.y93y4lwvoh.css",
-      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\css\\dialogo.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1011"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6gKqdwJwqGyKmTLfyII+Atkr0ucrMNuygti662+ZOXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 21:25:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y93y4lwvoh"
-        },
-        {
-          "Name": "label",
-          "Value": "css/dialogo.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6gKqdwJwqGyKmTLfyII+Atkr0ucrMNuygti662+ZOXE="
+          "Value": "sha256-5ORbDHoV0A6XrNLwcdCbM4je+m7kH7yPxGb/Qj6PCb4="
         }
       ]
     },
@@ -1509,6 +1530,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/aciertoPuerta.6j5fn4xuai.png",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\aciertoPuerta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmAxp1/1rKYWJt1CuE7oVFjcTgmfQpN2WwRSoba7doY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 21:35:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6j5fn4xuai"
+        },
+        {
+          "Name": "label",
+          "Value": "images/aciertoPuerta.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmAxp1/1rKYWJt1CuE7oVFjcTgmfQpN2WwRSoba7doY="
+        }
+      ]
+    },
+    {
+      "Route": "images/aciertoPuerta.png",
+      "AssetFile": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\aciertoPuerta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmAxp1/1rKYWJt1CuE7oVFjcTgmfQpN2WwRSoba7doY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 21:35:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmAxp1/1rKYWJt1CuE7oVFjcTgmfQpN2WwRSoba7doY="
         }
       ]
     },
