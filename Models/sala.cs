@@ -19,7 +19,15 @@ public class sala
 
     public bool respuestaEsCorrecta(string ingreso)
     {
-        return (ingreso == respuesta);
+        if (ingreso != null)
+        {
+            return (ingreso.ToLower() == respuesta);
+        }
+        else
+        {
+            return false;
+        }
+        
     }
     
 }

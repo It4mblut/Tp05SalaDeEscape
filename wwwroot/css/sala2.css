@@ -80,8 +80,21 @@ section{
 }
 
 .borges form input{
-    margin-left: 40%;
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 0.2%;
+    border-radius: 5px;
+   
 }
 .borges form input:last-child{
-    margin-left: 50%;
+    margin-left: 40%;
+    background-color: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1%;
 }

@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1bsrom480j</Fingerprint>
-      <Integrity>DThPhYbx6IdAWkaad6LhFI9TZ7Sw7T2W/gnPcMFjxPw=</Integrity>
+      <Fingerprint>y93y4lwvoh</Fingerprint>
+      <Integrity>6gKqdwJwqGyKmTLfyII+Atkr0ucrMNuygti662+ZOXE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dialogo.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6kz9kxuvbu</Fingerprint>
-      <Integrity>uovoiokgSeH2DInC/cRpGPBdcFd2Vp/ylxYIHCZTvak=</Integrity>
+      <Fingerprint>vcdzjowscg</Fingerprint>
+      <Integrity>X4EsVp0pSTQpm83hY1x+qmclas4uX7qU+GRn7sZlOX8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sala1.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qj247zt54d</Fingerprint>
-      <Integrity>5sgejxlUxa11ZcVVNbrxf6RzeIirrIF5azc7XSVT3Go=</Integrity>
+      <Fingerprint>21goqjf3iz</Fingerprint>
+      <Integrity>2mL/rECNW5qH7j6lz/W8/dpazNv+WGpiBrBYSejhwpU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sala2.css'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>51g6fmxu4h</Fingerprint>
-      <Integrity>V1IM4DIwRg6fXZSGeIla3F3vYHl39y+qGbbeSPyTHek=</Integrity>
+      <Fingerprint>flqxq8tje6</Fingerprint>
+      <Integrity>4w6RgEBfmi87y6MPoj492c9f3cpd2Oia+5amZnm8+XU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sala3.css'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5b6t149sdm</Fingerprint>
-      <Integrity>z3l7IuuD3qaJW6PWWkTbZ0iMMwZDhE5oO54PVmBJC+E=</Integrity>
+      <Fingerprint>6py50gxy2g</Fingerprint>
+      <Integrity>FvE5/uOupt/1tm9NHTSWHnOibcR3FTRrAKjsKKGgU6c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sala4.css'))</OriginalItemSpec>
@@ -233,6 +233,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\confettiGif.gif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\deathScreen.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>tpSalaDeEscape</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/tpSalaDeEscape</BasePath>
+      <RelativePath>images/deathScreen.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>438gmwcny4</Fingerprint>
+      <Integrity>EJ1NYBd1Z/3WEOqjr9/t31ozAonSP+JdnLwZEQEvb1s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\deathScreen.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\dosvtoyesvkiFestivo.png'))">
       <SourceType>Package</SourceType>

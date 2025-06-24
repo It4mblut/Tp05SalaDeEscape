@@ -64,8 +64,10 @@ public class HomeController : Controller
     public IActionResult responderAcertijo(string ? respuestaUsuario){
         
         juego escapeBabel=objeto.stringToObject<juego>(HttpContext.Session.GetString("babel"));
-        ViewBag.juego=escapeBabel;
 
+        ViewBag.juego=escapeBabel;
+        
+        
         
         if (escapeBabel.DicSalas[escapeBabel.salaActual].respuestaEsCorrecta(respuestaUsuario))
         {

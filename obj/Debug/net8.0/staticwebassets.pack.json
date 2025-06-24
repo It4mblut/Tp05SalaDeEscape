@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\images\\confettiGif.gif"
     },
     {
+      "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\deathScreen.png",
+      "PackagePath": "staticwebassets\\images\\deathScreen.png"
+    },
+    {
       "Id": "C:\\Users\\LucaG\\OneDrive\\Desktop\\progra\\Tp05SalaDeEscape\\wwwroot\\images\\dosvtoyesvkiFestivo.png",
       "PackagePath": "staticwebassets\\images\\dosvtoyesvkiFestivo.png"
     },
