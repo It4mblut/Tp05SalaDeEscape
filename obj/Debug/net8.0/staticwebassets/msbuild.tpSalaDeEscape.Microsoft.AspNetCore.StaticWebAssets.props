@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ydl0vmuaiq</Fingerprint>
-      <Integrity>RmMxYxKMjdI2+dCBHiaQO4DaPVhv21pN8kRse0lGDcE=</Integrity>
+      <Fingerprint>45uii2hat4</Fingerprint>
+      <Integrity>GJPLOyQXQ4kKaWQSHavYkJR4KaYGMDt/4f9on6cpelk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\inicio.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vcdzjowscg</Fingerprint>
-      <Integrity>X4EsVp0pSTQpm83hY1x+qmclas4uX7qU+GRn7sZlOX8=</Integrity>
+      <Fingerprint>sq1zn0zb7k</Fingerprint>
+      <Integrity>bKVGDkbFU7TBRSkSBcHfE/Rt2+8ScJYV77jQp5mmY18=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sala1.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>21goqjf3iz</Fingerprint>
-      <Integrity>2mL/rECNW5qH7j6lz/W8/dpazNv+WGpiBrBYSejhwpU=</Integrity>
+      <Fingerprint>b6of1mpqjz</Fingerprint>
+      <Integrity>3Q6XMdOumTWJOH7OG/rqvBZx9Gn/GtUGG5lVcp1kW9Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sala2.css'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>flqxq8tje6</Fingerprint>
-      <Integrity>4w6RgEBfmi87y6MPoj492c9f3cpd2Oia+5amZnm8+XU=</Integrity>
+      <Fingerprint>0jr2a4v6vv</Fingerprint>
+      <Integrity>3EGw/nk3/b9IubtpjfABH3uBZNH1N5DR8j837HvokTk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sala3.css'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6py50gxy2g</Fingerprint>
-      <Integrity>FvE5/uOupt/1tm9NHTSWHnOibcR3FTRrAKjsKKGgU6c=</Integrity>
+      <Fingerprint>s6m9726k31</Fingerprint>
+      <Integrity>bBjiimkn5NOCdIBYvMSlFKL9l8IcRJ+I4F6brzr+u4g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sala4.css'))</OriginalItemSpec>
@@ -174,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6j5fn4xuai</Fingerprint>
-      <Integrity>wmAxp1/1rKYWJt1CuE7oVFjcTgmfQpN2WwRSoba7doY=</Integrity>
+      <Fingerprint>j42p3nmaz8</Fingerprint>
+      <Integrity>A1ZANTjbTWND6wy5X3jD8SfGkzJcZF+F9swWJLThN+0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\aciertoPuerta.png'))</OriginalItemSpec>
