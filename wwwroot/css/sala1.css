@@ -87,18 +87,22 @@ form input:first-child{
     margin-top: 5%;
     margin-left: 27%;
 }
+.libro4{
+    float: right;
+    color: transparent;
+    width: 3%;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 25%;
+}
 
-.libro1:hover{
+section > div:hover{
     background-color: white;
     opacity: 0.4;
 }
-.libro2:hover{
-    background-color: white;
-    opacity: 0.4;
-}
-.libro3:hover{
-    background-color: white;
-    opacity: 0.4;
+.puerta:hover{
+    background-color: transparent;
+    opacity: 1;
 }
 
 form input:hover{

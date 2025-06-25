@@ -41,24 +41,25 @@ public class juego
 
         DicSalas = new Dictionary<int, sala>()
         {
-            {1, new sala("En la puerta ves un candado. Requiere que se ingresen 4 numeros. Deberas buscar por la sala para encontrar pistas sobre la combinacion, suerte encontrando el ultimo numero.", "7534",
+            {1, new sala("En la puerta ves un candado. Requiere que se ingresen 4 numeros. Deberas buscar por la sala para encontrar pistas sobre la combinacion.", "7504",
             new Dictionary<string, globoDialogo>(){
                 { "sala1_globo1", new globoDialogo("Primer numero; Si quieres saber quién soy, espera a que llueva. Contando los colores del arcoíris tendrás la prueba.", null)},
                 { "sala1_globo2", new globoDialogo("Segundo numero; ¿Qué número tiene el mismo número de letras que el valor que expresa?", null)},
-                { "sala1_globo3", new globoDialogo("Tercer numero; Omne trium perfectum", null)},
+                { "sala1_globo3", new globoDialogo("Tercer numero; Redondo soy y es cosa anunciada. Si estoy a la derecha algo valgo, pero a la izquierda soy nada.", null)},
+                { "sala1_globo4", new globoDialogo("Cuarto numero; La estación del año, también los elementos y los puntos cardinales, ese número represento.", null)}
             })},
 
-            {2, new sala("borges:-¿Conoces la palabra secreta, "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso (puedes interactuar con los cajones).", "montaña",
+            {2, new sala("Borges: ¿Conoces la palabra secreta, "+this.nombreUsuario+"? si es asi, dimelo y yo te cedere el paso (puedes interactuar con los cajones).", "montaña",
             new Dictionary<string, globoDialogo>(){
                 { "sala2_cajon1", new globoDialogo("*abres el primer cajon*", "images/cajon1.png")},
                 { "sala2_cajon2", new globoDialogo("*abres el segundo cajon*", "images/cajon2.png")},
-                { "sala2_cajon3", new globoDialogo("*abres el cajon lateral*", "images/cajon3.png")},
+                { "sala2_cajon3", new globoDialogo("*abres el cajon lateral*", "images/cajon3.png")}
             })},
 
             { 3, new sala("La puerta requiere una palabra clave que podras formar resolviendo los 3 acertijos ocultos por esta habitacion y juntando las primeras 2 letras de cada uno de manera ordenada.", "dragon",
             new Dictionary<string, globoDialogo>(){
-                { "sala3_persona", new globoDialogo("1- Me antecede quien cura o enseña, dos letras que el respeto despeña. En puertas de aulas o habitaciones, siempre me usan en presentaciones.", null)},
-                { "sala3_libro", new globoDialogo("2- En la ventana soy dama, en el balcón soy señora, en la mesa cortesana  y en el campo labradora.", null)},
+                { "sala3_persona", new globoDialogo("(1) Dostoyevski: Me antecede quien cura, aboga o enseña, dos letras que el respeto despeña, una abreviacion de mi profesion. ¿Conoces la respuesta, "+this.nombreUsuario+"?", null)},
+                { "sala3_libro", new globoDialogo("(2) Corre por montañas y valles sin parar, refleja el sol y te ayuda a limpiar.", null)},
                 { "sala3_tabla", new globoDialogo("*levantas una tabla salida del piso*", "images/tabal.png")},
             })},
 
