@@ -65,9 +65,9 @@ public class juego
 
             { 4, new sala("Llegaste al final de tu viaje, pero para escapar es necesario que encuentres el secreto de la inmortalidad. Busca por estos libros y encuentralo, pero ten cuidado, la biblioteca de babel intentara engañarte. (solo una palabra sera correcta)", "palabra",
             new Dictionary<string, globoDialogo>(){
-                { "sala4_libro1", new globoDialogo("Nace el hombre con la astucia que ha de servirle de guía; sin ella sucumbiría, pero, sigún mi esperencia, se vuelve en unos XXXXXXXXX Y en los otros picardía.", null)},
+                { "sala4_libro1", new globoDialogo("Nace el hombre con la astucia que ha de servirle de guía; sin ella sucumbiría, pero, sigún mi esperencia, se vuelve en unos XXXXXXXXX Y en los otros picardía. (La vuelta de Martin Fierro capitulo 32 verso 14)", null)},
                 { "sala4_libro2", new globoDialogo("En el viaje de la vida, lo que mas importa son los XXXXXX que hicimos en el camino.", null)},
-                { "sala4_libro3", new globoDialogo("En el principio era la XXXXXXX, y  la XXXXXXX era con Dios, y la XXXXXXX era Dios.", null)},
+                { "sala4_libro3", new globoDialogo("En el principio era la XXXXXXX, y  la XXXXXXX era con Dios, y la XXXXXXX era Dios. (Juan 1:1)", null)},
             })},
 
         };
