@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/34258704-d0d8-4dcc-aead-35c89b6b9a5f/resourceGroups/EscApeBabel_group/providers/Microsoft.Web/sites/EscApeBabel"
+}

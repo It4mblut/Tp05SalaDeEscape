@@ -1,0 +1,16 @@
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\tpSalaDeEscape.exe
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\appsettings.Development.json
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\appsettings.json
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\tpSalaDeEscape.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\tpSalaDeEscape.deps.json
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\tpSalaDeEscape.runtimeconfig.json
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\tpSalaDeEscape.pdb
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\Microsoft.Extensions.Diagnostics.Abstractions.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\Microsoft.Extensions.Hosting.Abstractions.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\Microsoft.Extensions.Options.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\Newtonsoft.Json.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\System.Security.Cryptography.Pkcs.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\System.Security.Cryptography.Xml.dll
+Z:\2025\Porgramacion\Tp05SalaDeEscape\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

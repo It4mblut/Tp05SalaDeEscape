@@ -1,3 +1,6 @@
+*{
+    text-transform: uppercase;
+}
 body{
     background-image: url('../images/confettiGif.gif');
     background-color: black;

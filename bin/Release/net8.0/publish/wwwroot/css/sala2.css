@@ -1,0 +1,106 @@
+*{
+    margin-bottom: 0%;
+    
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../images/fondosala2.png');
+    background-size: cover;
+    
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.pista{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+    height: auto;
+    margin-top: 1%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    padding: 0.1%;
+    font-size: large;
+}
+.borges{
+    width: 30%;
+    height: 30%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.cajon1{
+    width: 20%;
+    height: 10%;
+    margin-left: 38%;
+    margin-top: 20%;
+    color: transparent;
+}
+.cajon2{
+    width: 20%;
+    height: 10%;
+    margin-left: 38%;
+    margin-top: 2%;
+    color: transparent;
+
+}
+
+.cajon3{
+    color: transparent;
+    width: 8%;
+    height: 30%;
+    float: right;
+    margin-top: 20%;
+    margin-right: 30%;
+
+}
+.cajon1:hover{
+    background-color: white;
+    opacity: 0.4;
+}
+.cajon2:hover{
+    background-color: white;
+    opacity: 0.4;
+}
+.cajon3:hover{
+    background-color: white;
+    opacity: 0.4;
+}
+
+.borges form input{
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 0.2%;
+    border-radius: 5px;
+   
+}
+.borges form input:last-child{
+    margin-left: 40%;
+    background-color: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1%;
+}
+
+
+form input:hover{
+    
+    box-shadow: 0px 0px 1px 1px white;
+}
